@@ -10,3 +10,15 @@
     transform: translate(-50%, -50%);
     width: 50%; /* ajusta según necesites */
   }
+  .navbar-custom {
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-custom .navbar-brand {
+    color: white !important;
+}
