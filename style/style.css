@@ -10,7 +10,3 @@
     transform: translate(-50%, -50%);
     width: 50%; /* ajusta según necesites */
   }
-  .vid {
-    position: relative;
-    display: inline-block;
-  }
