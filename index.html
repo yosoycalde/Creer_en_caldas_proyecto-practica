@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+<div id="head1" class="row g-3 mb-4">
+    <div class="container bg-primary text-white p-3 rounded"></div>
     <!-- Header/Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
         <div class="container-fluid">
@@ -24,16 +26,23 @@
             </div>
         </div>
     </nav>
+</div>
 
     <!-- Main Container -->
     <div class="container-fluid">
         <!-- Logo Section -->
         <div class="row text-center py-4">
             <div class="col-12">
-                <img src="resources/img/logo-creer-en-caldas.png" class="img-fluid mb-3" style="max-width: 200px;" alt="Logo Creer en Caldas">
-                <div class="mb-4">
-                    <img src="resources/CREER EN CALDAS LANDING (1).jpg" class="img-fluid" style="max-width: 800px;" alt="Banner Creer en Caldas">
-                </div>
+                
+                <div class="container-image">
+                    <img src="resources/CREER EN CALDAS LANDING (1).jpg" alt="Imagen de fondo">
+                    <img src="resources/img/logo-creer-en-caldas.png" alt="Imagen superpuesta" class="overlay-image">
+                    <video class="vid" width="320" height="240" controls >
+                        <source src="video.mp4" type="video/mp4">
+                        <source src="video.webm" type="video/webm">
+                        Tu navegador no soporta el elemento video.
+                      </video>
+                  </div>
                 <h2 class="text-secondary">Una mirada al <strong>Futuro</strong> de nuestra <strong>Región</strong></h2>
             </div>
         </div>

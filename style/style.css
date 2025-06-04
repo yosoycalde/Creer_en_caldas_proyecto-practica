@@ -1,0 +1,16 @@
+.container-image {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* ajusta según necesites */
+  }
+  .vid {
+    position: relative;
+    display: inline-block;
+  }
