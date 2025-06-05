@@ -1,3 +1,15 @@
 a {
     color: #ffffff;
 }
+
+.imagen-de-fondo {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Para cubrir el espacio */
+    height: 400px;
+    /* Ajusta la altura según sea necesario */
+    position: relative;
+    /* Necesario para el posicionamiento absoluto */
+}
