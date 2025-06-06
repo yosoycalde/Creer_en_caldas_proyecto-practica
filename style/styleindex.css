@@ -1,4 +1,5 @@
 a {
+    /* Color de los links */
     color: #ffffff;
 }
 
@@ -6,7 +7,7 @@ a {
     /* Contexto de posicionamiento */
     position: relative;
     /* Altura fija de el contenedor  */
-    height: 713px;
+    height: 900px;
     /* Oculta cualquier parte de la imagen que salga */
     overflow: hidden;
 }
@@ -21,11 +22,22 @@ a {
     /* Ocupa todo el ancho */
     width: 100%;
     /* Ocupa toda altura */
-    height: 100%;
+    height: 900px;
     /* Capa inferior */
     z-index: 1;
 }
 
 .overlay-img {
+    /* Tamaño apsoluto */
     position: absolute;
+    /* A la mitad verticalmente */
+    top: 13%;
+    /* A la mitad horizontal */
+    left: 50%;
+    /* Ajuste mas detallado para centar */
+    transform: translate(-50%, -50%);
+    /* Capa superior */
+    z-index: 2;
+    /* Tamaño maximo */
+    max-width: 600px;
 }
