@@ -30,7 +30,7 @@ a {
 .overlay-img {
     /* Tamaño apsoluto */
     position: absolute;
-    /* A la mitad verticalmente */
+    /* Organizacion vertical */
     top: 13%;
     /* A la mitad horizontal */
     left: 50%;
@@ -53,4 +53,20 @@ a {
     transform: translate(-50%, -50%);
     /* Capa superior */
     z-index: 2;
+}
+
+.info1 {
+    /* Tamaño apsoluto */
+    position: absolute;
+    /* Letras alineadas al 38% (de arriva hacia abajo) */
+    top: 38%;
+    /* Letras alineadas al 72% (de izquierda a derecha) */
+    left: 72%;
+    /* Ajuste mas detallado para centar */
+    transform: translate(-50%, -50%);
+    /* Capa superior */
+    z-index: 2;
+    /* Tamaño maximo */
+    max-width: 600px;
+
 }
