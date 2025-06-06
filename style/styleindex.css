@@ -68,5 +68,19 @@ a {
     z-index: 2;
     /* Tamaño maximo */
     max-width: 600px;
+}
 
+.overlay-img1 {
+    /* Tamaño apsoluto */
+    position: absolute;
+    /* Organizacion vertical */
+    top: 65%;
+    /* A la mitad horizontal */
+    left: 75%;
+    /* Ajuste mas detallado para centar */
+    transform: translate(-50%, -50%);
+    /* Capa superior */
+    z-index: 2;
+    /* Tamaño maximo */
+    max-width: 350px;
 }
