@@ -95,7 +95,7 @@ a {
     /* Tamaño maximo */
     max-width: 30%;
     /* tamaño de ancho */
-    width: 30%;
+    width: 26%;
     /* ( psicion : relative ) = ayuda a que si el contenedor de cierta imagen o tipo texto se pueda mover sin afectar otros elementos*/
     position: relative;
     /* Letras alineadas al 19% (de izquierda a derecha) */
@@ -278,4 +278,10 @@ a {
 
 .top10 {
     left: 2px;
+}
+
+.destacado {
+    position: relative;
+    left: 75%;
+    top: -646px;
 }
