@@ -92,8 +92,11 @@ a {
 }
 
 .carrucel {
-    width: 50%;
+    width: 30%;
     position: relative;
+    left: 19%;
+    top: 50%;
+
 }
 
 .sliders {
@@ -162,13 +165,13 @@ a {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: #fff;
+    color: #4e2626;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6 ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    border: solid #ffffff 2px;
+    border: solid #2c1a1a 2px;
 }
 
 .sig {
@@ -198,7 +201,7 @@ a {
 
 .active,
 .quadrate:hover {
-    background-color: #fff;
+    background-color: #045c1a;
 }
 
 @media screen and (max-width:900px) {
@@ -216,4 +219,45 @@ a {
     .sig {
         padding: 5px;
     }
+}
+
+.aladino1 {
+    width: 500px;
+}
+
+.bellota1 {
+    width: 500px;
+}
+
+.gold1 {
+    height: 200px;
+    width: 500px;
+}
+
+.fundadores1 {
+    width: 500px;
+}
+
+.aris1 {
+    width: 500px;
+    height: 175px;
+}
+
+.celar1 {
+    width: 500px;
+    height: 350px;
+}
+
+.fundadores1 {
+    width: 500px;
+}
+
+.plaza1 {
+    width: 400px;
+    height: 400px;
+}
+
+.fenalco1 {
+    width: 500px;
+    align-items: center;
 }
