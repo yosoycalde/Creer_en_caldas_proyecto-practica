@@ -71,9 +71,11 @@
     <!-- (Class="inicio1") = es para estilar-alinear desde el css -->
     <div id="inicio" class="inicio1">
         <!-- (class = "carrucel") = nombramos el contenedor en el que queremos el carrusel de imagenes -->
-        <!-- (class = "overlay-img") -->
+        <!-- (class = "overlay-img") = comando de boostrap para hacer que una imagen tenga prioridad para que siempre se vea -->
         <div class="carrucel overlay-img">
-            <h2 class="text-white"> <b> Las 10 empresas más exitosas </b> </h2>
+            <!-- (class = "text-white") = se usa para que el texto que lleva el contenedor se haga de color blanco -->
+             <!-- La etiqueta de b se utiliza para que el texto que este en el contenedror este en negrilla -->
+            <h2 class="text-white"> <b> Las 10 empresas más exitosas </b></h2>
             <div class="sliders">
                 <img src="recursos/img/empresas/aladino-logo.png" alt="aladino" class="aladino1">
             </div>
@@ -104,6 +106,10 @@
             <div class="sliders">
                 <img src="recursos/img/empresas/fenalco-logo.png" alt="fenalco" class="fenalco1">
             </div>
+            <!-- Etiqueta (a) = es para que se puedas dar clic. tambien se utiliza para links a otras paguinas -->
+            <!-- (Class = "ant-sig") = Nombramos estas clases para que sea el boton de siguiente y anterior -->
+            <!-- El (onclick) = nos ayuda a que desde un html cuando se haga clic se elabore una funcion en el archivo java script -->
+            <!--  -->
             <a class="ant" onclick="plusSliders(-1)">&#10094;</a>
             <a class="sig" onclick="plusSliders(1)">&#10095;</a>
             <div class="elementos">
