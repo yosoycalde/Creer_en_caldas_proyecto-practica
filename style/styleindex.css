@@ -92,24 +92,32 @@ a {
 }
 
 .carrucel {
+    /* Tamaño maximo */
+    max-width: 30%;
+    /* tamaño de ancho */
     width: 30%;
+    /* ( psicion : relative ) = ayuda a que si el contenedor de cierta imagen o tipo texto se pueda mover sin afectar otros elementos*/
     position: relative;
+    /* Letras alineadas al 19% (de izquierda a derecha) */
     left: 19%;
+    /* Organizacion vertical de el 50%*/
     top: 50%;
 
 }
 
 .sliders {
+    /* hace que lo que este en el contenedor sea invisibles pero que siga ocupando espacio */
     display: none;
 }
 
 .sliders,
 .img {
+    /* tamaño de las imagenes tal cual estan guartdadas en la unidad de memoria */
     width: 100%;
 }
 
 .sig {
-    cursor: pointer;
+    cursor: progress;
     position: absolute;
     top: 50%;
     width: auto;
@@ -260,4 +268,8 @@ a {
 .fenalco1 {
     width: 500px;
     align-items: center;
+}
+
+.nexia1 {
+    width: 500px;
 }
