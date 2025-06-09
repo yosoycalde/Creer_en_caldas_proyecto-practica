@@ -100,11 +100,12 @@ a {
     display: none;
 }
 
-.sliders img {
+.sliders,
+.img {
     width: 100%;
 }
 
-.next {
+.sig {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -120,7 +121,7 @@ a {
     border: solid #fff 2px;
 }
 
-.next {
+.sig {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
@@ -134,7 +135,7 @@ a {
     text-align: center;
 }
 
-.quadrate {
+.carr {
     cursor: pointer;
     height: 4px;
     width: 50px;
@@ -143,4 +144,76 @@ a {
     display: inline-block;
     transition: background-color 0.6s ease;
     border-radius: 2px;
+}
+
+.sliders {
+    display: none;
+}
+
+.sliders {
+    width: 100%;
+}
+
+.ant,
+.sig {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border: solid #ffffff 2px;
+}
+
+.sig {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.ant:hover,
+.sig:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.elementos {
+    text-align: center;
+}
+
+.carr {
+    cursor: pointer;
+    height: 4px;
+    width: 50px;
+    margin: 0 2px;
+    background-color: #717171;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 2px;
+}
+
+.active,
+.quadrate:hover {
+    background-color: #fff;
+}
+
+@media screen and (max-width:900px) {
+    .carrucel {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .carrucel {
+        width: 100%;
+    }
+
+    .ant,
+    .sig {
+        padding: 5px;
+    }
 }
