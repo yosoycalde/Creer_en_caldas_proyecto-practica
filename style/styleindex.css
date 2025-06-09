@@ -99,9 +99,9 @@ a {
     /* ( psicion : relative ) = ayuda a que si el contenedor de cierta imagen o tipo texto se pueda mover sin afectar otros elementos*/
     position: relative;
     /* Letras alineadas al 19% (de izquierda a derecha) */
-    left: 19%;
+    left: 38%;
     /* Organizacion vertical de el 50%*/
-    top: 50%;
+    top: 60px;
 
 }
 
@@ -117,7 +117,9 @@ a {
 }
 
 .sig {
-    cursor: progress;
+    /* hace que el raton de la pantalla se vuelva una mano que deja interactuar con ella */
+    cursor: pointer;
+    /*  */
     position: absolute;
     top: 50%;
     width: auto;
@@ -272,4 +274,8 @@ a {
 
 .nexia1 {
     width: 500px;
+}
+
+.top10 {
+    left: 2px;
 }
