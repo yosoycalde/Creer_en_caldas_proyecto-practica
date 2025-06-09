@@ -1,24 +1,24 @@
 let slideIndex = 1;
-showslides(slideIndex)
+showSlides(slideIndex);
 
-function PlusSlides(n) {
-    showSlides(slideIndex += n)
+function plusSliders(n) {
+    showSlides(slideIndex += n);
 }
-function currentSlides(n) {
-    showSlides(slideIndex = n)
+function currentSlide(n) {
+    showSlides(slideIndex = n);
 }
 function showSlides(n) {
-    let i
-    let slides = document.querySelectorAll(".mySlides")
-    let quadrates = document.querySelectorAll(".quadrate")
-    if (n > slides.length) slideIndex = 1
-    if (n < 1) slideIndex = slides.length
+    let i;
+    let slides = document.querySelectorAll(".sliders");
+    let dots = document.querySelectorAll(".carr");
+    if (n > slides.length) slideIndex = 1;
+    if (n < 1) slideIndex = slides.length;
     for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none"
+        slides[i].style.display = "none";
     }
-    for (i = 0; i < quadrates.length; i++) {
-        quadrates[i].className = quadrates[i].className.replace("active", "")
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex - 1].style.display = "block";
-    quadrates[slideIndex - 1].className += "active";
+    dots[slideIndex - 1].className += " active";
 }
