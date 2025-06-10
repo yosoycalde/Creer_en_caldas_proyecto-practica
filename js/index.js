@@ -1,9 +1,13 @@
+// creamos una variable que mantine el dato que le damos en este cso (1)
 let slideIndex = 1;
+// llamamos a la funcion que muetra el slide inicial
 showSlides(slideIndex);
-
+// plusSliders nos ayuda a navegar por las diapositivas del carrucel
 function plusSliders(n) {
+    // y con la showSlides llamamos a la siguiente diapositiva
     showSlides(slideIndex += n);
 }
+// currentSlide(n) : nos sirve para mostrar una diapositiva especifica
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
