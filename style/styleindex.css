@@ -334,21 +334,25 @@ a {
     width: 500px;
 }
 
-
-
 .destacado {
+    /* el elemento mantiene su posicion en el flujo normal del documento */
     position: relative;
+    /* movimiento hacia la izquierda a 75 pixeles */
     left: 75%;
+    /* movimiento hacia arriva */
     top: -646px;
 }
 
 .salimina-caldas {
+    /* tamaño de ancho */
     width: 100%;
 
 }
 
 .noticias1 {
+    /* posicion adaptable */
     position: relative;
+
     top: -560px;
     left: -350px;
 }
