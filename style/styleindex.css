@@ -34,7 +34,7 @@ a {
 }
 
 .overlay-img {
-    /* Tamaño apsoluto */
+    /* posicionamiento apsoluto */
     position: absolute;
     /* Organizacion vertical */
     top: 13%;
@@ -119,18 +119,29 @@ a {
 .sig {
     /* hace que el raton de la pantalla se vuelva una mano que deja interactuar con ella */
     cursor: pointer;
-    /*  */
+    /* nos permite poner elementos exactamente donde queramos usando top,left,right o bottom */
     position: absolute;
+    /* coloca el elemento al 50% desde la parte inferior de su contenedor */
     top: 50%;
+    /* permite que el ancho se ajuste automaticamente segun el contenido */
     width: auto;
+    /* perimite que el ancho se ajuste automaticamente segun el contenido */
     margin-top: -22px;
+    /* añade un espacio interno de 16 pixeles en todos los lados */
     padding: 16px;
+    /* establece el color blanco */
     color: #fff;
+    /* hace que el texto sea en negrilla  */
     font-weight: bold;
+    /* establece el tamaño de la fuente en 18 px */
     font-size: 18px;
+    /* añade una transicion suave de 0.6 segunados a cualquier cambio de propiedad */
     transition: 0.6 ease;
+    /* bordea las esquinas del lado derecho */
     border-radius: 0 3px 3px 0;
+    /* previene que el usuario pueda seleciionar el texto */
     user-select: none;
+    /* añade borde solido blanco de 2 pixeles de grosor */
     border: solid #fff 2px;
 }
 
