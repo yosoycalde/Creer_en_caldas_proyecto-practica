@@ -121,10 +121,14 @@
                 <!-- Etiqueta (a) = es para que se puedas dar clic. tambien se utiliza para links a otras paguinas -->
                 <!-- (Class = "ant-sig") = Nombramos estas clases para que sea el boton de siguiente y anterior -->
                 <!-- El (onclick) = nos ayuda a que desde un html cuando se haga clic se elabore una funcion en el archivo java script -->
-                <!--  -->
+                <!-- plusSliders(-1) nos ayuda a mover el slider hacia atras -->
+                <!-- plusSliders(1) nos ayuda a mover el slider hacia adelante -->
                 <a class="ant" onclick="plusSliders(-1)">&#10094;</a>
                 <a class="sig" onclick="plusSliders(1)">&#10095;</a>
                 <div class="elementos">
+                    <!-- usamos la clase carr para hacer el botoncito de seleccion de el carrucel de imagenes -->
+                    <!-- El span nos permite hacer un enlace entre esta linea y el archivo java script -->
+                    <!--  onclick="currentSlide(1) nos define la accion que va a hacer (o en ete caso donde esta posicionado) -->
                     <span class="carr" onclick="currentSlide(1)"></span>
                     <span class="carr" onclick="currentSlide(2)"></span>
                     <span class="carr" onclick="currentSlide(3)"></span>
@@ -138,6 +142,7 @@
                 </div>
             </div>
         </div>
+
         <div class="destacado overlay-img">
             <h2 class="text-white"> <b>Destacado</b></h2>
             <iframe width="320" height="315" src="https://www.youtube.com/embed/ClhFu0RO8ZA?si=DIKleFoqDyNV71tq"
@@ -149,6 +154,10 @@
             <section>
                 <div class="noticias1">
                     <h2 class="text-info1 text-info">Noticias</h2>
+                    <!-- (p-3) = nos da relleno de 1 rem en todas direcciones -->
+                    <!-- (mb-3) = Margen inferior de 1 rem -->
+                    <!-- (bg-light) = fondo gris claro -->
+                    <!-- (rounded) = Bordes redondeados -->
                     <div class="noticia-contenedor1 shadow-none p-3 mb-3 bg-light rounded">
                         <img src="recursos/img/noticias/salamina-caldas.jpeg" class="salimina-caldas">
                         <h3 class="titulo-noticia1">La Patria recibe homenajes <br> en su primer siglo </h3>
@@ -185,6 +194,10 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div class="las-empresas-con-mayores-ingresos">
+            <h3 class="text-empresas-ingresos">LAS EMPRESAS CON MAYORES INGRESOS</h3>
+            <img src="recursos/img/especial-creer-caldas.jpg" alt="creer-en-caldas">
         </div>
 
 
