@@ -287,14 +287,26 @@ a {
 }
 
 .salimina-caldas {
-    width: 20%;
-    align-items: center;
+    width: 100%;
+
 }
 
 .noticias1 {
     position: relative;
-    top: -500px;
-    /* Ajusta el valor según lo que necesites */
+    top: -560px;
+    left: -350px;
+}
 
+.noticia-contenedor {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
 
+.text-info {
+    position: relative;
+    left: 750px;
 }
