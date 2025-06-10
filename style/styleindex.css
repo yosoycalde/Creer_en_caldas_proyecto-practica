@@ -168,69 +168,100 @@ a {
     height: 4px;
     /* 50 pixeles de ancho */
     width: 50px;
-    /* margen de 0 */
+    /* margen de 0 en la parte superior, y 2 pixles a la derecha */
     margin: 0, 2px;
+    /* color de fondo de el contenedor gris */
     background-color: #717171;
+    /* permite poner mas elementos al lado del otro horizontalmente  */
     display: inline-block;
+    /* nos permite tener una transicion animada en este caso color de fondo */
     transition: background-color 0.6s ease;
+    /* radio de el borde */
     border-radius: 2px;
 }
 
 .sliders {
+    /* elemento oculto */
     display: none;
 }
 
 .sliders {
+    /* ancho de el 100% */
     width: 100%;
 }
 
 .ant,
 .sig {
+    /* hace que el cursor cambie a la manito para seleccionar el contenido */
     cursor: pointer;
+    /* Posicion absoluta */
     position: absolute;
+    /* Ajustado 50% hacia arriva */
     top: 50%;
+    /* Ancho automatico */
     width: auto;
+    /* ajueste de posicion vertical en negativo de(-22px) */
     margin-top: -22px;
+    /* añade un espacio interno de 16 pixeles en todos los lados */
     padding: 16px;
+    /* color */
     color: #4e2626;
+    /* hace que el texto sea en negrilla  */
     font-weight: bold;
+    /* establece el tamaño de la fuente en 18 px */
     font-size: 18px;
+    /* añade una transicion suave de 0.6 segunados a cualquier cambio de propiedad */
     transition: 0.6 ease;
+    /* radio de el borde */
     border-radius: 0 3px 3px 0;
+    /* permite que el usuario no pueda seleccionar el texto */
     user-select: none;
+    /* borde solido con un color determinado */
     border: solid #2c1a1a 2px;
 }
 
 .sig {
-    right: 0;
+    /* radio de el borde */
     border-radius: 3px 0 0 3px;
 }
 
 .ant:hover,
 .sig:hover {
+    /* color de fondo */
     background-color: rgb(0, 0, 0);
 }
 
 .elementos {
+    /* texto alineado al medio */
     text-align: center;
 }
 
 .carr {
+    /* hace que el cursor cambie a la manito para seleccionar el contenido */
     cursor: pointer;
+    /* Tamaño en altura  */
     height: 4px;
+    /* mas o menos ancho */
     width: 50px;
+    /* adaptacion de la margen */
     margin: 0 2px;
+    /* color de fondo en el contenedor */
     background-color: #717171;
+    /* no fuerza a saltos de linea */
     display: inline-block;
+    /* transicion suave de 0.6 segundos con el color de fondo */
     transition: background-color 0.6s ease;
+    /* radio de borde */
     border-radius: 2px;
 }
 
 .active,
 .quadrate:hover {
+    /* color de fondo de el contenedor */
     background-color: #045c1a;
 }
 
+/* diseño responsivo */
 @media screen and (max-width:900px) {
     .carrucel {
         width: 100%;
@@ -248,54 +279,62 @@ a {
     }
 }
 
+/* tamaño de imagen */
 .aladino1 {
     width: 500px;
 }
 
+/* tamaño de imagen */
 .bellota1 {
     width: 500px;
 }
 
+/* tamaño de imagen */
 .gold1 {
     height: 200px;
     width: 500px;
 }
 
+/* tamaño de imagen */
 .fundadores1 {
     width: 500px;
 }
 
+/* tamaño de imagen */
 .aris1 {
     width: 500px;
     height: 175px;
 }
 
+/* tamaño de imagen */
 .celar1 {
     width: 500px;
     height: 350px;
 }
 
+/* tamaño de imagen */
 .fundadores1 {
     width: 500px;
 }
 
+/* tamaño de imagen */
 .plaza1 {
     width: 400px;
     height: 400px;
 }
 
+/* tamaño de imagen */
 .fenalco1 {
     width: 500px;
     align-items: center;
 }
 
+/* tamaño de imagen */
 .nexia1 {
     width: 500px;
 }
 
-.top10 {
-    left: 2px;
-}
+
 
 .destacado {
     position: relative;
