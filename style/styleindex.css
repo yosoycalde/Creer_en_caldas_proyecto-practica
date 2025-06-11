@@ -419,3 +419,27 @@ a {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
     border-radius: 12px;
 }
+
+.text-empresas-ingresos {
+    text-align: center;
+}
+
+.ranking-caldas {
+    width: 800px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.top-tec {
+    text-align: center;
+}
+
+.las-empresas-con-mayores-ingresos {}
+
+.seccion-de-ingresos {
+    position: relative;
+    top: -1200px;
+    left: -50px;
+}
