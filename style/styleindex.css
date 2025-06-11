@@ -421,11 +421,23 @@ a {
 }
 
 .text-empresas-ingresos {
+    border: 2px solid #41a403;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #41a403;
+    display: block;
+    width: 950px;
+    /* Mismo ancho que el contenedor padre */
     text-align: center;
+    margin: 0 auto;
+    /* Centramos el elemento */
+    box-sizing: border-box;
+    position: relative;
 }
 
 .ranking-caldas {
-    width: 800px;
+    text-align: center;
+    width: 950px;
     position: relative;
     display: block;
     margin: 0 auto;
@@ -434,12 +446,32 @@ a {
 
 .top-tec {
     text-align: center;
+    border: 2px solid #41a403;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #41a403;
+    display: block;
+    width: 100%;
+    /* Ancho completo del contenedor padre */
+    text-align: center;
+    margin: 0;
+    /* Eliminamos el margen para que se ajuste completamente */
+    box-sizing: border-box;
+    /* Incluye padding y border en el ancho total */
+    position: relative;
+    /* Posicionamiento relativo */
+    left: 0;
+    /* Alineado a la izquierda del contenedor padre */
+    right: 0;
+    /* Alineado a la derecha del contenedor padre */
 }
 
-.las-empresas-con-mayores-ingresos {}
-
-.seccion-de-ingresos {
+.las-empresas-con-mayores-ingresos {
     position: relative;
-    top: -1200px;
-    left: -50px;
+    top: -1240px;
+    left: -100px;
+    width: 950px;
+    /* Añadimos un ancho fijo igual al de .ranking-caldas */
+    margin: 0 auto;
+    /* Centramos el contenedor */
 }
