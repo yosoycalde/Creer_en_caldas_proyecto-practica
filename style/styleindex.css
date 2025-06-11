@@ -445,25 +445,417 @@ a {
 }
 
 .top-tec {
-    text-align: center;
+    text-align: left;
+    /* Cambiado de center a left */
     border: 2px solid #41a403;
     padding: 15px;
     border-radius: 5px;
     background-color: #41a403;
     display: block;
-    width: 100%;
-    /* Ancho completo del contenedor padre */
-    text-align: center;
+    width: 950px;
+    /* Mismo ancho que el contenedor padre */
     margin: 0;
-    /* Eliminamos el margen para que se ajuste completamente */
     box-sizing: border-box;
-    /* Incluye padding y border en el ancho total */
     position: relative;
-    /* Posicionamiento relativo */
     left: 0;
-    /* Alineado a la izquierda del contenedor padre */
-    right: 0;
-    /* Alineado a la derecha del contenedor padre */
+}
+
+/* diseño responsivo */
+@media screen and (max-width:900px) {
+    .carrucel {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .carrucel {
+        width: 100%;
+    }
+
+    .ant,
+    .sig {
+        padding: 5px;
+    }
+}
+
+/* tamaño de imagen */
+.aladino1 {
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.bellota1 {
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.gold1 {
+    height: 200px;
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.fundadores1 {
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.aris1 {
+    width: 500px;
+    height: 175px;
+}
+
+/* tamaño de imagen */
+.celar1 {
+    width: 500px;
+    height: 350px;
+}
+
+/* tamaño de imagen */
+.fundadores1 {
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.plaza1 {
+    width: 400px;
+    height: 400px;
+}
+
+/* tamaño de imagen */
+.fenalco1 {
+    width: 500px;
+    align-items: center;
+}
+
+/* tamaño de imagen */
+.nexia1 {
+    width: 500px;
+}
+
+.destacado {
+    /* el elemento mantiene su posicion en el flujo normal del documento */
+    position: relative;
+    /* movimiento hacia la izquierda a 75 pixeles */
+    left: 75%;
+    /* movimiento hacia arriva */
+    top: -646px;
+}
+
+.salimina-caldas {
+    /* tamaño de ancho */
+    width: 100%;
+
+}
+
+.noticias1 {
+    /* posicion adaptable */
+    position: relative;
+
+    top: -560px;
+    left: -350px;
+}
+
+.noticia-contenedor1 {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.text-info1 {
+    position: relative;
+    left: 750px;
+}
+
+.noticia-contenedor2 {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.noticias2 {
+    position: relative;
+    top: -1040px;
+    left: 150px;
+}
+
+.sanvicente1 {
+    width: 100%;
+}
+
+.noticias3 {
+    position: relative;
+    top: -1050px;
+    left: -350px;
+}
+
+.noticia-contenedor3 {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.noticias4 {
+    position: relative;
+    top: -1250px;
+    left: 150px;
+}
+
+.noticia-contenedor4 {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.text-empresas-ingresos {
+    border: 2px solid #41a403;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #41a403;
+    display: block;
+    width: 950px;
+    /* Mismo ancho que el contenedor padre */
+    text-align: center;
+    margin: 0 auto;
+    /* Centramos el elemento */
+    box-sizing: border-box;
+    position: relative;
+}
+
+.ranking-caldas {
+    text-align: center;
+    width: 950px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.top-tec {
+    text-align: left;
+    /* Cambiado de center a left */
+    border: 2px solid #41a403;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #41a403;
+    display: block;
+    width: 950px;
+    /* Mismo ancho que el contenedor padre */
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+}
+
+/* diseño responsivo */
+@media screen and (max-width:900px) {
+    .carrucel {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .carrucel {
+        width: 100%;
+    }
+
+    .ant,
+    .sig {
+        padding: 5px;
+    }
+}
+
+/* tamaño de imagen */
+.aladino1 {
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.bellota1 {
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.gold1 {
+    height: 200px;
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.fundadores1 {
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.aris1 {
+    width: 500px;
+    height: 175px;
+}
+
+/* tamaño de imagen */
+.celar1 {
+    width: 500px;
+    height: 350px;
+}
+
+/* tamaño de imagen */
+.fundadores1 {
+    width: 500px;
+}
+
+/* tamaño de imagen */
+.plaza1 {
+    width: 400px;
+    height: 400px;
+}
+
+/* tamaño de imagen */
+.fenalco1 {
+    width: 500px;
+    align-items: center;
+}
+
+/* tamaño de imagen */
+.nexia1 {
+    width: 500px;
+}
+
+.destacado {
+    /* el elemento mantiene su posicion en el flujo normal del documento */
+    position: relative;
+    /* movimiento hacia la izquierda a 75 pixeles */
+    left: 75%;
+    /* movimiento hacia arriva */
+    top: -646px;
+}
+
+.salimina-caldas {
+    /* tamaño de ancho */
+    width: 100%;
+
+}
+
+.noticias1 {
+    /* posicion adaptable */
+    position: relative;
+
+    top: -560px;
+    left: -350px;
+}
+
+.noticia-contenedor1 {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.text-info1 {
+    position: relative;
+    left: 750px;
+}
+
+.noticia-contenedor2 {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.noticias2 {
+    position: relative;
+    top: -1040px;
+    left: 150px;
+}
+
+.sanvicente1 {
+    width: 100%;
+}
+
+.noticias3 {
+    position: relative;
+    top: -1050px;
+    left: -350px;
+}
+
+.noticia-contenedor3 {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.noticias4 {
+    position: relative;
+    top: -1250px;
+    left: 150px;
+}
+
+.noticia-contenedor4 {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.text-empresas-ingresos {
+    border: 2px solid #41a403;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #41a403;
+    display: block;
+    width: 950px;
+    /* Mismo ancho que el contenedor padre */
+    text-align: center;
+    margin: 0 auto;
+    /* Centramos el elemento */
+    box-sizing: border-box;
+    position: relative;
+}
+
+.ranking-caldas {
+    text-align: center;
+    width: 950px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.top-tec {
+    text-align: left;
+    /* Cambiado de center a left */
+    border: 2px solid #41a403;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #41a403;
+    display: block;
+    width: 950px;
+    /* Mismo ancho que el contenedor padre */
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
 }
 
 .las-empresas-con-mayores-ingresos {
