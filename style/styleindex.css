@@ -606,7 +606,6 @@ a {
 }
 
 .las-500-empresas {
-
     position: relative;
     /* Ajustado para alinearse justo debajo del contenedor anterior */
     width: 400px;
@@ -621,9 +620,6 @@ a {
 
 .img-500 {
     position: relative;
-
-
-
     width: 400px;
     height: 250px;
 }
@@ -645,5 +641,3 @@ a {
     left: 72%;
     top: -3340px;
 }
-
-.boton-flecha {}
