@@ -604,3 +604,46 @@ a {
     margin-left: 20px;
     /* Space between image and text */
 }
+
+.las-500-empresas {
+
+    position: relative;
+    /* Ajustado para alinearse justo debajo del contenedor anterior */
+    width: 400px;
+    height: 70px;
+    max-width: 600px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+.img-500 {
+    position: relative;
+
+
+
+    width: 400px;
+    height: 250px;
+}
+
+.ingresa-aqui-1 {
+    position: relative;
+    /* Ajustado para alinearse justo debajo del contenedor anterior */
+    width: 400px;
+    max-width: 600px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+.cafetero-empresas-img {
+    position: relative;
+    left: 72%;
+    top: -3340px;
+}
+
+.boton-flecha {}
