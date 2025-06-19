@@ -36,3 +36,96 @@ function showSlides(n) {
     // Marca el punto correspondiente como activo 
     dots[slideIndex - 1].className += " active";
 }
+const tituloCancion = document.querySelector(".lista1 h3");
+const nombreArtista = document.querySelector(".titulo-cancion h2");
+
+const progreso = document.getElementById("progreso");
+const cancion = document.getElementById("cancion-1");
+
+const inicioControl = document.getElementById("pausa-iniciar");
+const botonReproducirPausar = document.querySelector(".boton-iniciar");
+
+
+const botonAtras = document.querySelector(".botones button.boton-atras");
+const botonAdelante = document.querySelector(".botones button.boton-siguiente");
+const canciones = [
+    {
+        titulo: "Fue",
+        nombre: "Soda Stereo",
+        fuente: "music/Soda Stereo - Fue (Official Audio)(MP3_160K).mp3"
+    },
+    {
+        titulo: "La La La",
+        nombre: "Al2 El Aldeano",
+        fuente: "music/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3"
+    },
+    {
+        titulo: "A Mi",
+        nombre: "Al2 El Aldeano",
+        fuente: "music/8- A Mi - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3"
+    },
+    {
+        titulo: "Perranderos",
+        nombre: "Al2 El Aldeano",
+        fuente: "music/13- Perranderos - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3"
+    },
+    {
+        titulo: "Clint Eastwood",
+        nombre: "Gorillaz",
+        fuente: "music/Gorillaz - Clint Eastwood (Official Video)(MP3_160K).mp3"
+    },
+    {
+        titulo: "Déjà Vu",
+        nombre: "Gorillaz",
+        fuente: "music/Gorillaz - Déjà Vu (ft. Alicaì Harley) Live from NW10 (Official Visualiser)(MP3_160K).mp3"
+    },
+    {
+        titulo: "Désolé",
+        nombre: "Gorillaz",
+        fuente: "music/Gorillaz - Désolé ft.Fatoumata Diawara(Episode Two)(MP3_160K).mp3"
+    },
+    {
+        titulo: "Smokin_ Love",
+        nombre: "Taiwan",
+        fuente: "music/Smokin_ Love(MP3_160K).mp3"
+    },
+    {
+        titulo: "Smooth Criminal",
+        nombre: "Michel jackson",
+        fuente: "music/Smooth Criminal(MP3_160K).mp3"
+    },
+    {
+        titulo: "Entre Caníbales",
+        nombre: "Soda Stereo",
+        fuente: "music/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).mp3"
+    },
+];
+
+let indiceCancionActual = 0
+function actualizarInfoCancion() {
+
+    tituloCancion.textContent = canciones[indiceCancionActual].titulo;
+    tituloCancion.textContent = canciones[indiceCancionActual].nombre;
+    cancion.src = canciones[indiceCancionActual].fuente;
+    cancion.addEventListener('loadeddata', function () { });
+
+};
+botonReproducirPausar.addEventListener('click', reproducirPausar);
+function reproducirPausar() {
+    reproducirCancion()
+    if (cancion.onpause) {
+        reproducirCancion();
+    } else {
+        pausarCancion()
+    }
+};
+
+function reproducirCancion() {
+    cancion.onplay()
+
+
+};
+actualizarInfoCancion();
+function pausarCancion() {
+
+};
