@@ -211,7 +211,5 @@ nivelVolumen.addEventListener('input', (e) => {
     audio.volume = e.target.value / 100;
 });
 
-// Cargar la primera canción al iniciar
 actualizarLista();
 cargarCancion(0);
-// --- FIN NUEVO REPRODUCTOR (ACTUALIZADO) ---
