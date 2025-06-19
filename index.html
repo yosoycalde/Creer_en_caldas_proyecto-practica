@@ -248,45 +248,35 @@
                     <img src="recursos/img/mas-info.png"> </a> </button>
         </div>
     </div>
-    <div class="lista-de-reproduccion">
-        <h3 class="lista1">Lista de reproduccion</h3>
-        <h2 class="titulo-cancion">Titulo</h2>
-        <p class="info-cancion">Nombre</p>
-        <audio id="cancion-1">
-            <source src="" type="audio/mpeg" />
-        </audio>
-        <input type="range" value="0" id="progreso" />
-        <div class="botones">
-            <button class="boton-atras">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="currentColor"
-                    class="bi bi-chevron-double-left" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-                    <path fill-rule="evenodd"
-                        d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-                </svg>
-            </button>
-            <button class="boton-iniciar">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"
-                        / id="pausa-iniciar">
-                </svg>
-            </button>
-            <button class="boton-siguiente">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-chevron-double-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708" />
-                    <path fill-rule="evenodd"
-                        d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708" />
-                </svg>
-            </button>
-
+    <div class="lista-musica">
+        <div class="info-musica">
+            <h2 class="titulo-musica">Reproductor de musica</h2>
+            <div class="albun-musica" id="albun-musica">
+                <div class="por-defecto"> </div>
+            </div>
+            <p id="cancion-info">Seleccione canción</p>
         </div>
-    </div>
 
+        <div class="contenedor-proceso-cancion" id="contenedor-proceso-cancion">
+            <div class="progreso" id="progreso"></div>
+        </div>
+        <div class="timpo-cancion">
+            <span id="tiempo-actual">0:00</span>
+            <span id="duracion">0:00</span>
+        </div>
+
+        <div class="controles">
+            <button id="cancion-anterior">⏮</button>
+            <button id="iniciar-cancion">▶</button>
+            <button id="cancion-siguiente">⏭</button>
+        </div>
+
+        <div class="volumen-contenedor">
+            <span>🔊</span>
+            <input type="range" class="volume-slider" min="0" max="100" value="100" id="volumen">
+        </div>
+        <div class="lista-canciones" id="lista-canciones"></div>
+    </div>
 
 
 
