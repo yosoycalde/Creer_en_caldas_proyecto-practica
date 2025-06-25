@@ -660,3 +660,7 @@ a {
     left: 1375px;
     top: -3300px;
 }
+
+cover {
+    position: relative;
+}

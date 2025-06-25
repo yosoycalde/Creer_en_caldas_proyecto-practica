@@ -56,55 +56,55 @@ const canciones = [
         title: "5- La La La ",
         artist: "Al2 El Aldeano",
         path: "music/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "recursos/imgMusica/1.jpg"
+        cover: "recursos/imgMusica/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: "Fue",
         artist: "Soda Stereo",
         path: "music/Soda Stereo - Fue (Official Audio)(MP3_160K).mp3",
-        cover: "recursos/imgMusica/2.jpg"
+        cover: "recursos/imgMusica/Soda Stereo - Fue (Official Audio)(MP3_160K).jpg"
     },
     {
         title: "A Mi",
         artist: "Al2 El Aldeano",
         path: "music/8- A Mi - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "recursos/imgMusica/3.jpg"
+        cover: "recursos/imgMusica/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: " Perranderos",
         artist: " Al2 El Aldeano",
         path: "music/13- Perranderos - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "recursos/imgMusica/4.jpg"
+        cover: "recursos/imgMusica/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: " Clint Eastwood",
         artist: "Gorillaz",
         path: "music/Gorillaz - Clint Eastwood (Official Video)(MP3_160K).mp3",
-        cover: "recursos/imgMusica/5.jpg"
+        cover: "recursos/imgMusica/Gorillaz - Clint Eastwood (Official Video)(MP3_160K).jpg"
     },
     {
         title: "Déjà Vu",
         artist: "Gorillaz",
         path: "music/Gorillaz - Déjà Vu (ft. Alicaì Harley) Live from NW10 (Official Visualiser)(MP3_160K).mp3",
-        cover: "recursos/imgMusica/6.jpg"
+        cover: "recursos/imgMusica/Gorillaz - Déjà Vu (ft. Alicaì Harley) Live from NW10 (Official Visualiser)(MP3_160K).jpg"
     },
     {
         title: "Désolé",
         artist: "Gorillaz",
         path: "music/Gorillaz - Désolé ft. Fatoumata Diawara (Episode Two)(MP3_160K).mp3",
-        cover: "recursos/imgMusica/7.jpg"
+        cover: "recursos/imgMusica/Gorillaz - Désolé ft. Fatoumata Diawara (Episode Two)(MP3_160K).jpg"
     },
     {
         title: "Smokin Love",
         artist: "taiwan",
         path: "music/Smokin_ Love(MP3_160K).mp3",
-        cover: "recursos/imgMusica/8.jpg"
+        cover: "recursos/imgMusica/Smokin_ Love(MP3_160K).jpg"
     },
     {
         title: "Smooth Criminal",
-        artist: "Michel",
+        artist: "Alien Ant Farm",
         path: "music/Smooth Criminal(MP3_160K).mp3",
-        cover: "recursos/imgMusica/9.jpg"
+        cover: "recursos/imgMusica/Smooth Criminal(MP3_160K).jpg"
     },
     {
         title: "Entre Caníbales",
