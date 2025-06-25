@@ -112,6 +112,12 @@ const canciones = [
         artist: "Soda Stereo",
         path: "music/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).mp3",
         cover: "recursos/imgMusica/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
+    },
+    {
+        title: "Adonay",
+        artist: "Sin registro",
+        path: "music/Adonay(MP3_160K).mp3",
+        cover: "recursos/imgMusica/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
     }
 ]
 
