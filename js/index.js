@@ -49,6 +49,7 @@ const nivelVolumen = document.getElementById('volumen');
 const cancionInfo = document.getElementById('cancion-info');
 const listaCanciones = document.getElementById('lista-canciones');
 const albumArt = document.getElementById('albun-musica');
+const likeBtn = document.getElementById('botao');
 
 // Lista predefinida de canciones (puedes personalizarla)
 const canciones = [
@@ -116,6 +117,9 @@ const canciones = [
 
 let cancionActual = 0;
 
+// Array para almacenar los likes de cada canción
+let likesPorCancion = new Array(canciones.length).fill(0);
+
 function actualizarLista() {
     listaCanciones.innerHTML = '';
     canciones.forEach((cancion, index) => {
@@ -132,6 +136,21 @@ function actualizarLista() {
         div.addEventListener('click', () => cargarCancion(index));
         listaCanciones.appendChild(div);
     });
+}
+
+function actualizarLikeBtn() {
+    if (likeBtn) {
+        likeBtn.innerHTML = likesPorCancion[cancionActual] + '♡';
+    }
+}
+
+function adicionarLike() {
+    likesPorCancion[cancionActual]++;
+    actualizarLikeBtn();
+}
+
+if (likeBtn) {
+    likeBtn.onclick = adicionarLike;
 }
 
 function cargarCancion(index) {
@@ -158,6 +177,7 @@ function cargarCancion(index) {
             });
 
         actualizarLista();
+        actualizarLikeBtn(); // Actualiza el contador de likes al cambiar de canción
     }
 }
 
