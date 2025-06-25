@@ -662,7 +662,7 @@ a {
 }
 
 .lista-canciones {
-    max-height: 400px;
+    max-height: 680px;
     min-height: 120px;
     width: 500px;
     overflow-y: auto;
@@ -803,5 +803,5 @@ a {
 .contador-like {
     position: relative;
     left: 180px;
-    top: -610px;
+    top: -900px;
 }
