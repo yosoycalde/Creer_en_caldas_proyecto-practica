@@ -143,7 +143,7 @@ function cargarCancion(index) {
 
         // Actualizar imagen del álbum
         if (albumArt && cancion.cover) {
-            albumArt.innerHTML = `<img src="${cancion.cover}" alt="Album Art">`;
+            albumArt.innerHTML = `<img src="${cancion.cover}" alt="Album Art" class="album-img-${index}">`;
         } else if (albumArt) {
             albumArt.innerHTML = '<div class="por-defecto">🎵</div>';
         }

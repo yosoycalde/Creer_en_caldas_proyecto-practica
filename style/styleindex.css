@@ -661,6 +661,74 @@ a {
     top: -3300px;
 }
 
-cover {
-    position: relative;
+
+/* Tamaños individuales para cada imagen de álbum de música */
+.album-img-0 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-1 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-2 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-3 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-4 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-5 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-6 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-7 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-8 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-9 {
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
 }
