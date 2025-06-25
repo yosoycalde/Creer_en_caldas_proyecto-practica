@@ -56,62 +56,61 @@ const canciones = [
         title: "5- La La La ",
         artist: "Al2 El Aldeano",
         path: "music/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/cover1.jpg"
+        cover: "recursos/imgMusica/1.jpg"
     },
     {
         title: "Fue",
         artist: "Soda Stereo",
         path: "music/Soda Stereo - Fue (Official Audio)(MP3_160K).mp3",
-        cover: "music/cover2.jpg"
+        cover: "recursos/imgMusica/2.jpg"
     },
     {
         title: "A Mi",
         artist: "Al2 El Aldeano",
         path: "music/8- A Mi - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/cover3.jpg"
+        cover: "recursos/imgMusica/3.jpg"
     },
     {
         title: " Perranderos",
         artist: " Al2 El Aldeano",
         path: "music/13- Perranderos - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/cover4.jpg"
+        cover: "recursos/imgMusica/4.jpg"
     },
     {
         title: " Clint Eastwood",
         artist: "Gorillaz",
         path: "music/Gorillaz - Clint Eastwood (Official Video)(MP3_160K).mp3",
-        cover: "music/cover5.jpg"
+        cover: "recursos/imgMusica/5.jpg"
     },
     {
         title: "Déjà Vu",
         artist: "Gorillaz",
         path: "music/Gorillaz - Déjà Vu (ft. Alicaì Harley) Live from NW10 (Official Visualiser)(MP3_160K).mp3",
-        cover: "music/cover1.jpg"
-        // poner imagen
+        cover: "recursos/imgMusica/6.jpg"
     },
     {
         title: "Désolé",
         artist: "Gorillaz",
         path: "music/Gorillaz - Désolé ft. Fatoumata Diawara (Episode Two)(MP3_160K).mp3",
-        cover: "music/cover2.jpg"
+        cover: "recursos/imgMusica/7.jpg"
     },
     {
         title: "Smokin Love",
         artist: "taiwan",
         path: "music/Smokin_ Love(MP3_160K).mp3",
-        cover: "music/cover3.jpg"
+        cover: "recursos/imgMusica/8.jpg"
     },
     {
         title: "Smooth Criminal",
         artist: "Michel",
         path: "music/Smooth Criminal(MP3_160K).mp3",
-        cover: "music/cover4.jpg"
+        cover: "recursos/imgMusica/9.jpg"
     },
     {
         title: "Entre Caníbales",
         artist: "Soda Stereo",
         path: "music/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).mp3",
-        cover: "music/cover5.jpg"
+        cover: "recursos/imgMusica/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
     }
 ]
 
