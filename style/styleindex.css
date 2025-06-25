@@ -661,6 +661,59 @@ a {
     top: -3300px;
 }
 
+.lista-canciones {
+    max-height: 220px;
+    min-height: 120px;
+    width: 500px;
+    overflow-y: auto;
+    border: 1.5px solid #000000;
+    border-radius: 8px;
+    background: #bdbec0;
+    margin: 10px 0 10px 0;
+    padding: 8px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.cancion {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background 0.2s;
+}
+
+.cancion:last-child {
+    border-bottom: none;
+}
+
+.cancion.activa {
+    background: #568a64;
+    font-weight: bold;
+    color: #9049e1;
+}
+
+.numero-cancion {
+    width: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+
+.info-cancion {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.titulo {
+    font-size: 1rem;
+    color: #222;
+}
+
+.artista {
+    font-size: 0.9rem;
+    color: #666;
+}
 
 /* Tamaños individuales para cada imagen de álbum de música */
 .album-img-0 {
@@ -731,4 +784,10 @@ a {
     height: auto !important;
     display: block;
     max-width: 100%;
+}
+
+.contador-like {
+    position: relative;
+    left: 180px;
+    top: -430px;
 }
