@@ -9,6 +9,10 @@ a {
     color: #ffffff;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .imagen-container {
     /* Contexto de posicionamiento */
     position: relative;
@@ -808,4 +812,7 @@ a {
 
 .info-que-tanmto-sabes {
     background-color: rgb(162, 14, 192, 0.5);
+}
+.lideres-de-la-region{
+    color: #9049e1;
 }
