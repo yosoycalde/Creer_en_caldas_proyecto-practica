@@ -830,7 +830,7 @@ a {
 
 .familia-comedor {
     width: 680px;
-    height: 290px;
+    height: 250px;
     top: -3552px;
     left: 1200px;
 }
@@ -840,4 +840,23 @@ a {
     position: relative;
     left: 820px;
     top: 5px;
+}
+
+.fondo-texto {
+    background-color: #7423d177;
+    width: 100%;
+}
+
+.fondo-texto1 {
+    width: 100%;
+}
+
+.homenaje-historico {
+    top: -3538px;
+    left: 1200px;
+}
+
+.samana-img {
+    height: 265px;
+    width: 680px;
 }
