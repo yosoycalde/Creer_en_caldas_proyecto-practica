@@ -860,3 +860,7 @@ a {
     height: 265px;
     width: 680px;
 }
+
+.fondo-pie-de-paguina {
+    background-color: rgba(165, 54, 146, 255);
+}
