@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .imagen-container {
@@ -543,7 +543,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     background-color: #dcdee0;
-    max-width: 600px;
+    max-width: 700px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
 }
 
@@ -552,8 +552,8 @@ body {
     left: 380px;
     top: -1240px;
     /* Ajustado de -1200px a -1220px para eliminar el espacio */
-    width: 600px;
-    max-width: 600px;
+    width: 700px;
+    max-width: 700px;
     background-color: blue;
     border: 2px solid blue;
     padding: 10px;
@@ -566,13 +566,13 @@ body {
 
 .los-nuevos-empresarios2 {
     position: relative;
-    left: 1030px;
-    top: -1550px;
+    left: 1155px;
+    top: -1575px;
     border: 2px solid #8b8c8a;
     padding: 15px;
     border-radius: 5px;
     background-color: #dcdee0;
-    max-width: 600px;
+    max-width: 725px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
     margin-bottom: 10px;
 
@@ -583,8 +583,8 @@ body {
     left: -18px;
     top: 17px;
     /* Ajustado para alinearse justo debajo del contenedor anterior */
-    width: 600px;
-    max-width: 600px;
+    width: 725px;
+    max-width: 725px;
     background-color: blue;
     border: 2px solid blue;
     padding: 10px;
@@ -813,6 +813,16 @@ body {
 .info-que-tanmto-sabes {
     background-color: rgb(162, 14, 192, 0.5);
 }
-.lideres-de-la-region{
+
+.lideres-de-la-region {
     color: #9049e1;
+}
+
+.foro-lideres-reguion {
+    top: -2960px;
+    left: 380px;
+}
+.lapatria-img1{
+    width: 49rem;
+    height: 33rem;
 }
