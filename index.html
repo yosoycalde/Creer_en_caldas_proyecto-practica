@@ -13,21 +13,8 @@
 <body>
     <div id="inicio">
         <div class="row g-3 mb-4">
-            <!-- Cabeza de pagina -->
-            <!-- Definimos barra e navegacion (cabeza de paguina) -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
-                <!-- Con el (container-fluid) creamos un contenedor que ocupa todo el ancho disponible -->
-                <!-- Con el (d-flex) habilitamos el sistema de cjas flexibles -->
-                <!-- Con el (align-items-center) alinea verticalmente los elementos -->
-                <!-- Con el (gap-5) nos separa los elementos encerrados en el contenedor en este caso un div -->
                 <div class="container-fluid d-flex justify-content-center align-items-center gap-5">
-                    <!-- Utilizamos la propiedad button con el tipo button de boostrap para editarlo -->
-                    <!-- Utilizamos el btn-dark para darle color negro a el boton que estamos definiendo -->
-                    <!-- Etiqueta a para que tambien se comporte como un link href para que nos lleve a una seccion de la paguina con este nombre -->
-                    <!-- class (y comando de boostrap) para utilizar la libreria de boostrap -->
-                    <!-- Con el (text-decoration-none) quitamos lo subrayado de el link -->
-                    <!-- Con el (btn-primary) se utiliza para estilizar botón dandole un aspecto visual distintivo -->
-                    <!-- Con el (role=button) le ponemos el rol de botón -->
                     <button type="button" class="btn btn-dark"> <a href="#inicio"
                             class="text-decoration-none btn-primary" role=button>Inicio</a></button>
                     <button type="button" class="btn btn-dark"> <a href="#noticias"
@@ -36,14 +23,11 @@
                             class="text-decoration-none btn-primary" role=button>Top 10</a></button>
                     <button type="button" class="btn btn-dark"> <a href="#directorio"
                             class="text-decoration-none btn-primary" role=button>Directorio Empresarial</a></button>
-                    <!-- Con el (btn-outline-danger) llamamos un grupo de estilos para aplicarlos al boton -->
-                    <!-- Con el (target="_blank") hacemos que abrá una pestaña nueva cada que se le de clic -->
                     <button type="button" class="btn btn-outline-danger"> <a href="funcionalidad/inicio de cesion.html"
                             target="_blank" class="text-decoration-none btn-primary" role=button>Iniciar
                             Cesión</a></button>
                     <button type="button" class="btn btn-dark"> <a href="funcionalidad/registro.html" target="_blank"
                             class="text-decoration-none btn-primary" role="button">Registro</a>
-                        <!-- Con el (<svg xmlns="http://www.w3.org/2000/svg"...) llamamos un icono desde la weeb de boostrap -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                             class="bi bi-person" viewBox="0 0 16 16">
                             <path
@@ -53,41 +37,21 @@
                     </button>
                 </div>
         </div>
-        <!-- Inicio de paguina -->
-        <!-- Con el (row) definimos filas en nuetro sistema de cuadriculas -->
-        <!-- Con el (mb-5) nos añade una margen inferior de:  de 3rem (o 48px) -->
-        <div class="row mb-5">
-            <!-- Con el (imagen-container) alinea con el sistemas de cuadriculas de boostrap -->
-            <!-- Con el (rounded) redondea los bordes de imagenes, links de videos etc..  -->
-            <div class="imagen-container rounded">
-                <!-- Con el (class="background-img") hacemos que la imagen seleccionada este en la parte de el fondo y poder poner sobre ella mas elementos -->
-                <img src="recursos/fondo.jpg" alt="imagenfondo" class="background-img">
-                <!-- Con el (class="overlay-img") hacemos que se sobre ponga en la imagen que utilizamos como fondo -->
-                <img src="recursos/img/logo-creer-en-caldas.png" alt="imagensuperpuesta" class="overlay-img">
-                <img src="recursos/img/la-patria-impresos.png" alt="ingresoslapatria" class="overlay-img1">
-                <!-- Con el (<iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/yP_hw6I-pBQ?si=3qCq0Y_3whhZnWOX") se llama un link
-             de youtube para mostrar un video 
-            -->
-                <iframe class="video1" width="560" height="315"
-                    src="https://www.youtube.com/embed/yP_hw6I-pBQ?si=3qCq0Y_3whhZnWOX" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>
-                <!-- Con el (class="text-white") se configura el color de el texto en este caso con color blanco -->
-                <div class="text-white">
-                    <!-- Con la clase de (class="info1") la nombramos y la llamamos desde el css para hacer los debidos ajustes -->
-                    <h3 class="info1"> Una mirada al <br> <b>futuro</b> de nuetra <b> <br> región </b></h3>
-                </div>
+        <div class="imagen-container rounded">
+            <img src="recursos/fondo.jpg" alt="imagenfondo" class="background-img">
+            <img src="recursos/img/logo-creer-en-caldas.png" alt="imagensuperpuesta" class="overlay-img">
+            <img src="recursos/img/la-patria-impresos.png" alt="ingresoslapatria" class="overlay-img1">
+            <iframe class="video1" width="560" height="315"
+                src="https://www.youtube.com/embed/yP_hw6I-pBQ?si=3qCq0Y_3whhZnWOX" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <div class="text-white">
+                <h3 class="info1"> Una mirada al <br> <b>futuro</b> de nuetra <b> <br> región </b></h3>
             </div>
         </div>
-        <!-- id = seccion de la paguina -->
-        <!-- (Class="inicio1") = es para estilar-alinear desde el css -->
         <div class="inicio1" id="noticias">
-            <!-- (class = "carrucel") = nombramos el contenedor en el que queremos el carrusel de imagenes -->
-            <!-- (class = "overlay-img") = comando de boostrap para hacer que una imagen tenga prioridad para que siempre se vea -->
             <div class="carrucel overlay-img">
-                <!-- (class = "text-white") = se usa para que el texto que lleva el contenedor se haga de color blanco -->
-                <!-- La etiqueta de b se utiliza para que el texto que este en el contenedror este en negrilla -->
                 <h2 class="text-white"> <b> Las 10 empresas más exitosas </b></h2>
                 <div class="sliders">
                     <img src="recursos/img/empresas/aladino-logo.png" alt="aladino" class="aladino1">
@@ -119,17 +83,9 @@
                 <div class="sliders">
                     <img src="recursos/img/empresas/fenalco-logo.png" alt="fenalco" class="fenalco1">
                 </div>
-                <!-- Etiqueta (a) = es para que se puedas dar clic. tambien se utiliza para links a otras paguinas -->
-                <!-- (Class = "ant-sig") = Nombramos estas clases para que sea el boton de siguiente y anterior -->
-                <!-- El (onclick) = nos ayuda a que desde un html cuando se haga clic se elabore una funcion en el archivo java script -->
-                <!-- plusSliders(-1) nos ayuda a mover el slider hacia atras -->
-                <!-- plusSliders(1) nos ayuda a mover el slider hacia adelante -->
                 <a class="ant" onclick="plusSliders(-1)">&#10094;</a>
                 <a class="sig" onclick="plusSliders(1)">&#10095;</a>
                 <div class="elementos">
-                    <!-- usamos la clase carr para hacer el botoncito de seleccion de el carrucel de imagenes -->
-                    <!-- El span nos permite hacer un enlace entre esta linea y el archivo java script -->
-                    <!--  onclick="currentSlide(1) nos define la accion que va a hacer (o en ete caso donde esta posicionado) -->
                     <span class="carr" onclick="currentSlide(1)"></span>
                     <span class="carr" onclick="currentSlide(2)"></span>
                     <span class="carr" onclick="currentSlide(3)"></span>
@@ -156,10 +112,6 @@
     <section>
         <div class="noticias1">
             <h2 class="text-info1 text-info">Noticias</h2>
-            <!-- (p-3) = nos da relleno de 1 rem en todas direcciones -->
-            <!-- (mb-3) = Margen inferior de 1 rem -->
-            <!-- (bg-light) = fondo gris claro -->
-            <!-- (rounded) = Bordes redondeados -->
             <div class="noticia-contenedor1 shadow-none p-3 mb-3 bg-light rounded">
                 <img src="recursos/img/noticias/salamina-caldas.jpeg" class="salimina-caldas">
                 <h3 class="titulo-noticia1">La Patria recibe homenajes <br> en su primer siglo </h3>

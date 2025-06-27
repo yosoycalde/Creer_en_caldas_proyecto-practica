@@ -5,250 +5,160 @@
 }
 
 a {
-    /* Color de los links */
     color: #ffffff;
 }
 
 
 .imagen-container {
-    /* Contexto de posicionamiento */
     position: relative;
-    /* Altura fija de el contenedor  */
     height: 900px;
-    /* Oculta cualquier parte de la imagen que salga */
     overflow: hidden;
 }
 
 .background-img {
-    /* Se posiciona respecto al contenedor principal */
     position: absolute;
-    /* Pegada arriva */
     top: 0;
-    /* Pegada a la izquierda */
     left: 0;
-    /* Ocupa todo el ancho */
     width: 100%;
-    /* Ocupa toda altura */
     height: 900px;
-    /* Capa inferior */
     z-index: 1;
 }
 
 .overlay-img {
-    /* posicionamiento apsoluto */
     position: absolute;
-    /* Organizacion vertical */
     top: 13%;
-    /* A la mitad horizontal */
     left: 50%;
-    /* Ajuste mas detallado para centar */
     transform: translate(-50%, -50%);
-    /* Capa superior */
     z-index: 2;
-    /* Tamaño maximo */
     max-width: 600px;
 }
 
 .video1 {
-    /* Tamaño apsoluto */
     position: absolute;
-    /* A la mitad verticalmente */
     top: 50%;
-    /* A la mitad horizontal */
     left: 50%;
-    /* Ajuste mas detallado para centar */
     transform: translate(-50%, -50%);
-    /* Capa superior */
     z-index: 2;
 }
 
 .info1 {
-    /* Tamaño apsoluto */
     position: absolute;
-    /* Letras alineadas al 38% (de arriva hacia abajo) */
     top: 38%;
-    /* Letras alineadas al 72% (de izquierda a derecha) */
     left: 72%;
-    /* Ajuste mas detallado para centar */
     transform: translate(-50%, -50%);
-    /* Capa superior */
     z-index: 2;
-    /* Tamaño maximo */
     max-width: 600px;
 }
 
 .overlay-img1 {
-    /* Tamaño apsoluto */
     position: absolute;
-    /* Organizacion vertical */
     top: 65%;
-    /* A la mitad horizontal */
     left: 75%;
-    /* Ajuste mas detallado para centar */
     transform: translate(-50%, -50%);
-    /* Capa superior */
     z-index: 2;
-    /* Tamaño maximo */
     max-width: 350px;
 }
 
 .carrucel {
-    /* Tamaño maximo */
     max-width: 30%;
-    /* tamaño de ancho */
     width: 26%;
-    /* ( psicion : relative ) = ayuda a que si el contenedor de cierta imagen o tipo texto se pueda mover sin afectar otros elementos*/
     position: relative;
-    /* Letras alineadas al 19% (de izquierda a derecha) */
     left: 38%;
-    /* Organizacion vertical de el 50%*/
     top: 60px;
 
 }
 
 .sliders {
-    /* hace que lo que este en el contenedor sea invisibles pero que siga ocupando espacio */
     display: none;
-    /* ancho de el 100% */
     width: 100%;
 }
 
 .sig {
-    /* hace que el raton de la pantalla se vuelva una mano que deja interactuar con ella */
     cursor: pointer;
-    /* nos permite poner elementos exactamente donde queramos usando top,left,right o bottom */
     position: absolute;
-    /* coloca el elemento al 50% desde la parte inferior de su contenedor */
     top: 50%;
-    /* permite que el ancho se ajuste automaticamente segun el contenido */
     width: auto;
-    /* perimite que el ancho se ajuste automaticamente segun el contenido */
     margin-top: -22px;
-    /* añade un espacio interno de 16 pixeles en todos los lados */
     padding: 16px;
-    /* establece el color blanco */
     color: #fff;
-    /* hace que el texto sea en negrilla  */
     font-weight: bold;
-    /* establece el tamaño de la fuente en 18 px */
     font-size: 18px;
-    /* añade una transicion suave de 0.6 segunados a cualquier cambio de propiedad */
     transition: 0.6 ease;
-    /* bordea las esquinas del lado derecho */
     border-radius: 0 3px 3px 0;
-    /* previene que el usuario pueda seleciionar el texto */
     user-select: none;
-    /* añade borde solido blanco de 2 pixeles de grosor */
     border: solid #fff 2px;
 }
 
 .sig {
-    /* radio de el borde */
     border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
 .next:hover {
-    /* color de fondo */
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .elementos {
-    /* aliniacion de texto al centro  */
     text-align: center;
 }
 
 .carr {
-    /* hace que el cursor cambie a la manito para seleccionar el contenido */
     cursor: pointer;
-    /* Altura de 4pixeles */
     height: 4px;
-    /* 50 pixeles de ancho */
     width: 50px;
-    /* margen de 0 en la parte superior, y 2 pixles a la derecha */
     margin: 0, 2px;
-    /* color de fondo de el contenedor gris */
     background-color: #717171;
-    /* permite poner mas elementos al lado del otro horizontalmente  */
     display: inline-block;
-    /* nos permite tener una transicion animada en este caso color de fondo */
     transition: background-color 0.6s ease;
-    /* radio de el borde */
     border-radius: 2px;
 }
 
 .ant,
 .sig {
-    /* hace que el cursor cambie a la manito para seleccionar el contenido */
     cursor: pointer;
-    /* Posicion absoluta */
     position: absolute;
-    /* Ajustado 50% hacia arriva */
     top: 50%;
-    /* Ancho automatico */
     width: auto;
-    /* ajueste de posicion vertical en negativo de(-22px) */
     margin-top: -22px;
-    /* añade un espacio interno de 16 pixeles en todos los lados */
     padding: 16px;
-    /* color */
     color: #4e2626;
-    /* hace que el texto sea en negrilla  */
     font-weight: bold;
-    /* establece el tamaño de la fuente en 18 px */
     font-size: 18px;
-    /* añade una transicion suave de 0.6 segunados a cualquier cambio de propiedad */
     transition: 0.6 ease;
-    /* radio de el borde */
     border-radius: 0 3px 3px 0;
-    /* permite que el usuario no pueda seleccionar el texto */
     user-select: none;
-    /* borde solido con un color determinado */
     border: solid #2c1a1a 2px;
 }
 
 .sig {
-    /* radio de el borde */
     border-radius: 3px 0 0 3px;
 }
 
 .ant:hover,
 .sig:hover {
-    /* color de fondo */
     background-color: rgb(0, 0, 0);
 }
 
 .elementos {
-    /* texto alineado al medio */
     text-align: center;
 }
 
 .carr {
-    /* hace que el cursor cambie a la manito para seleccionar el contenido */
     cursor: pointer;
-    /* Tamaño en altura  */
     height: 4px;
-    /* mas o menos ancho */
     width: 50px;
-    /* adaptacion de la margen */
     margin: 0 2px;
-    /* color de fondo en el contenedor */
     background-color: #717171;
-    /* no fuerza a saltos de linea */
     display: inline-block;
-    /* transicion suave de 0.6 segundos con el color de fondo */
     transition: background-color 0.6s ease;
-    /* radio de borde */
     border-radius: 2px;
 }
 
 .active,
 .quadrate:hover {
-    /* color de fondo de el contenedor */
     background-color: #045c1a;
 }
 
-/* diseño responsivo */
 @media screen and (max-width:900px) {
     .carrucel {
         width: 100%;
@@ -266,78 +176,63 @@ a {
     }
 }
 
-/* tamaño de imagen */
 .aladino1 {
     width: 500px;
 }
 
-/* tamaño de imagen */
 .bellota1 {
     width: 500px;
 }
 
-/* tamaño de imagen */
 .gold1 {
     height: 200px;
     width: 500px;
 }
 
-/* tamaño de imagen */
 .fundadores1 {
     width: 500px;
 }
 
-/* tamaño de imagen */
 .aris1 {
     width: 500px;
     height: 175px;
 }
 
-/* tamaño de imagen */
 .celar1 {
     width: 500px;
     height: 350px;
 }
 
-/* tamaño de imagen */
 .fundadores1 {
     width: 500px;
 }
 
-/* tamaño de imagen */
 .plaza1 {
     width: 400px;
     height: 400px;
 }
 
-/* tamaño de imagen */
 .fenalco1 {
     width: 500px;
     align-items: center;
 }
 
-/* tamaño de imagen */
 .nexia1 {
     width: 500px;
 }
 
 .destacado {
-    /* el elemento mantiene su posicion en el flujo normal del documento */
     position: relative;
-    /* movimiento hacia la izquierda a 75 pixeles */
     left: 75%;
-    /* movimiento hacia arriva */
     top: -646px;
 }
 
 .salimina-caldas {
-    /* tamaño de ancho */
     width: 100%;
 
 }
 
 .noticias1 {
-    /* posicion adaptable */
     position: relative;
 
     top: -560px;
@@ -414,10 +309,8 @@ a {
     background-color: #41a403;
     display: block;
     width: 950px;
-    /* Mismo ancho que el contenedor padre */
     text-align: center;
     margin: 0 auto;
-    /* Centramos el elemento */
     box-sizing: border-box;
     position: relative;
 }
@@ -433,14 +326,12 @@ a {
 
 .top-tec {
     text-align: left;
-    /* Cambiado de center a left */
     border: 2px solid #41a403;
     padding: 15px;
     border-radius: 5px;
     background-color: #41a403;
     display: block;
     width: 950px;
-    /* Mismo ancho que el contenedor padre */
     margin: 0;
     box-sizing: border-box;
     position: relative;
@@ -452,12 +343,9 @@ a {
     top: -1240px;
     left: -100px;
     width: 950px;
-    /* Añadimos un ancho fijo igual al de .ranking-caldas */
     margin: 0 auto;
-    /* Centramos el contenedor */
 }
 
-/* Estilos comunes para ambos botones */
 .ant,
 .sig {
     cursor: pointer;
@@ -474,28 +362,22 @@ a {
     border: 2px solid #2c1a1a;
 }
 
-/* Botón anterior - posicionado a la izquierda */
 .ant {
     left: -50px;
-    /* Mueve el botón fuera del contenedor hacia la izquierda */
     border-radius: 3px 0 0 3px;
 }
 
-/* Botón siguiente - posicionado a la derecha */
 .sig {
     right: -50px;
-    /* Mueve el botón fuera del contenedor hacia la derecha */
     border-radius: 0 3px 3px 0;
 }
 
-/* Efecto hover para ambos botones */
 .ant:hover,
 .sig:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: #ffffff;
 }
 
-/* Ajustes responsivos */
 @media screen and (max-width: 1200px) {
     .ant {
         left: 0;
@@ -510,11 +392,9 @@ a {
     position: relative;
     display: inline-block;
     width: 50%;
-    /* Adjust width as needed */
     padding: 20px;
     vertical-align: top;
     margin-left: 20px;
-    /* Space between image and text */
 }
 
 .viejitos {
@@ -524,9 +404,7 @@ a {
 .text-losnuevos-empresarios {
     position: relative;
     top: -1230px;
-    /* Mover hacia arriba */
     left: 360px;
-    /* Mover hacia la derecha */
     max-width: 600px;
     padding: 20px;
     box-sizing: border-box;
@@ -548,7 +426,6 @@ a {
     position: relative;
     left: 380px;
     top: -1240px;
-    /* Ajustado de -1200px a -1220px para eliminar el espacio */
     width: 700px;
     max-width: 700px;
     background-color: blue;
@@ -557,7 +434,6 @@ a {
     box-sizing: border-box;
     text-align: center;
     margin: 0;
-    /* Aseguramos que no haya márgenes */
     border-radius: 5px;
 }
 
@@ -579,7 +455,6 @@ a {
     position: relative;
     left: -18px;
     top: 17px;
-    /* Ajustado para alinearse justo debajo del contenedor anterior */
     width: 725px;
     max-width: 725px;
     background-color: blue;
@@ -599,16 +474,13 @@ a {
     position: relative;
     display: inline-block;
     width: 50%;
-    /* Adjust width as needed */
     padding: 20px;
     vertical-align: top;
     margin-left: 20px;
-    /* Space between image and text */
 }
 
 .las-500-empresas {
     position: relative;
-    /* Ajustado para alinearse justo debajo del contenedor anterior */
     width: 400px;
     height: 70px;
     max-width: 600px;
@@ -627,7 +499,6 @@ a {
 
 .ingresa-aqui-1 {
     position: relative;
-    /* Ajustado para alinearse justo debajo del contenedor anterior */
     width: 400px;
     height: 70px;
     max-width: 600px;
@@ -715,8 +586,6 @@ a {
     font-size: 0.9rem;
     color: #666;
 }
-
-/* Tamaños individuales para cada imagen de álbum de música */
 .album-img-0 {
     width: 150px !important;
     height: auto !important;
