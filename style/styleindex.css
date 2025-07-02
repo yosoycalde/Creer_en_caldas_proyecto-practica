@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 a {
     color: #ffffff;
 }
@@ -511,8 +517,9 @@ a {
 
 .cafetero-empresas-img {
     position: relative;
-    left: 72%;
-    top: -3340px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 
 .boton-flecha {
@@ -529,8 +536,9 @@ a {
 
 .lista-musica {
     position: relative;
-    left: 1375px;
-    top: -3300px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 
 .lista-canciones {
@@ -586,6 +594,7 @@ a {
     font-size: 0.9rem;
     color: #666;
 }
+
 .album-img-0 {
     width: 150px !important;
     height: auto !important;
@@ -677,53 +686,17 @@ a {
 }
 
 
-.lideres-de-la-region {
-    color: #9049e1;
-}
 
-.foro-lideres-reguion {
-    top: -3000px;
-    left: 380px;
-}
-
-.lideres-de-la-region {
-    position: relative;
-    top: 50px;
-
-}
-
-.lapatria-img1 {
-    width: 49rem;
-    height: 33rem;
-}
-
-.familia-comedor {
-    width: 680px;
-    height: 250px;
-    top: -3552px;
-    left: 1200px;
-}
-
-.eventos-info {
-    color: #9049e1;
-    position: relative;
-    left: 820px;
-    top: 5px;
-}
 
 .fondo-texto {
     background-color: #7423d177;
     width: 100%;
 }
 
-.fondo-texto1 {
-    width: 100%;
+.morado {
+    background-color: rgba(102, 13, 102, 0.664);
 }
 
-.homenaje-historico {
-    top: -3538px;
-    left: 1200px;
-}
 
 .samana-img {
     height: 265px;
@@ -732,4 +705,7 @@ a {
 
 .fondo-pie-de-paguina {
     background-color: rgba(165, 54, 146, 255);
+}
+.color-m{
+    color: #975dd8;
 }

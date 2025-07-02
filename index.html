@@ -159,6 +159,54 @@
             <p class="text-white" class="lider-de-rendimiento">lider de rendimiento desde 2022</p>
         </div>
     </div>
+    <div class="cafetero-empresas-img">
+        <div class="las-500-empresas">
+            <div class="text-white">
+                <h3 class="text-center">Las 500 empresas <br> líderes de Caldas</h3>
+            </div>
+        </div>
+        <img src="recursos/img/ranking/empresas-lideres-eje-cafetero.jpg" class="img-500">
+        <div class="ingresa-aqui-1">
+            <div class="text-white">
+                <h3 class="text-ingresa-aqui">"Ingresa aquí"</h3>
+            </div>
+            <button class="boton-flecha"> <a href="https://www.lapatria.com/" class="text-decoration-none"
+                    target="_blank"><img src="recursos/img/mas-info.png"> <img src="recursos/img/mas-info.png">
+                    <img src="recursos/img/mas-info.png"> </a> </button>
+        </div>
+    </div>
+    <div class="lista-musica">
+        <div class="info-musica">
+            <h2 class="titulo-musica">Reproductor de Música</h2>
+            <div class="albun-musica" id="albun-musica">
+                <div class="por-defecto">🎵</div>
+            </div>
+            <p id="cancion-info">Seleccione canción</p>
+        </div>
+
+        <div class="contenedor-proceso-cancion" id="contenedor-proceso-cancion">
+            <div class="progreso" id="progreso"></div>
+        </div>
+        <div class="timpo-cancion">
+            <span id="tiempo-actual">0:00</span>
+            <span id="duracion">0:00</span>
+        </div>
+
+        <div class="controles" class="d-grid gap-2 d-md-block">
+            <button id="cancion-anterior" class="btn btn-dark">⏮</button>
+            <button id="iniciar-cancion" class="btn btn-dark">▶</button>
+            <button id="cancion-siguiente" class="btn btn-dark">⏭</button>
+        </div>
+
+        <div class="volumen-contenedor">
+            <span>🔊</span>
+            <input type="range" class="volume-slider" min="0" max="100" value="100" id="volumen">
+        </div>
+        <div class="lista-canciones" id="lista-canciones"></div>
+        <div class="contador-like">
+            <button class="btn btn-dark" id="botao" onclick="adicionarLike()">♡</button>
+        </div>
+    </div>
     <div class="text-info">
         <h2 class="text-losnuevos-empresarios">Los nuevos empresarios</h2>
     </div>
@@ -192,88 +240,51 @@
             <h3 class="text-white">Emprendimientos destacados</h3>
         </div>
     </div>
-    <div class="cafetero-empresas-img">
-        <div class="las-500-empresas">
-            <div class="text-white">
-                <h3 class="text-center">Las 500 empresas <br> líderes de Caldas</h3>
+    <hr>
+    <div class="container my-5">
+        <div class="row align-items-stretch">
+            <div class="col-md-6 d-flex flex-column justify-content-between">
+                <h2 class="color-m lideres-de-la-region">Foro lideres de la regíon</h2>
+                <div class="position-relative flex-grow-1 h-100">
+                    <img class="img-fluid rounded w-100 h-100"
+                        style="object-fit:cover; min-height:450px; max-height:100%;"
+                        src="recursos/img/laptria-img1.jpg">
+                    <div
+                        class="morado position-absolute bottom-0 start-0 text-start text-white bg-opacity-50 p-3 rounded w-75">
+                        <h3>¿Que tanto conoces de la patria?</h3>
+                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-between">
+                <div class="row h-100">
+                    <div class="col-12 d-flex flex-column justify-content-between" style="height:50%;">
+                        <h2 class="color-m eventos-info w-100 text-start mb-3">Eventos</h2>
+                        <img class="familia-comedor w-100 mb-3 rounded" style="object-fit:cover; height:160px;"
+                            src="recursos/familia-comiendo.png" alt="familia-comedor">
+                    </div>
+                    <div class="col-12 d-flex flex-column justify-content-between" style="height:50%;">
+                        <div class="homenaje-historico position-relative w-100 h-100">
+                            <img class="ff samana-img img-fluid rounded w-100"
+                                style="object-fit:cover; height:160px; max-height:50%;"
+                                src="recursos/img/noticias/Samana-Caldas.jpeg">
+                            <div
+                                class="position-absolute bottom-0 start-0 text-start text-white bg-black bg-opacity-50 p-3 rounded w-100">
+                                <h3><b>Homenaje historico</b></h3>
+                                <p><b>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</b> <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <img src="recursos/img/ranking/empresas-lideres-eje-cafetero.jpg" class="img-500">
-        <div class="ingresa-aqui-1">
-            <div class="text-white">
-                <h3 class="text-ingresa-aqui">"Ingresa aquí"</h3>
-            </div>
-            <button class="boton-flecha"> <a href="https://www.lapatria.com/" class="text-decoration-none"
-                    target="_blank"><img src="recursos/img/mas-info.png"> <img src="recursos/img/mas-info.png">
-                    <img src="recursos/img/mas-info.png"> </a> </button>
-        </div>
     </div>
-    <!-- Lista de reproducccion -->
-    <div class="lista-musica">
-        <div class="info-musica">
-            <h2 class="titulo-musica">Reproductor de Música</h2>
-            <div class="albun-musica" id="albun-musica">
-                <div class="por-defecto">🎵</div>
-            </div>
-            <p id="cancion-info">Seleccione canción</p>
-        </div>
-
-        <div class="contenedor-proceso-cancion" id="contenedor-proceso-cancion">
-            <div class="progreso" id="progreso"></div>
-        </div>
-        <div class="timpo-cancion">
-            <span id="tiempo-actual">0:00</span>
-            <span id="duracion">0:00</span>
-        </div>
-
-        <div class="controles" class="d-grid gap-2 d-md-block">
-            <button id="cancion-anterior" class="btn btn-dark">⏮</button>
-            <button id="iniciar-cancion" class="btn btn-dark">▶</button>
-            <button id="cancion-siguiente" class="btn btn-dark">⏭</button>
-        </div>
-
-        <div class="volumen-contenedor">
-            <span>🔊</span>
-            <input type="range" class="volume-slider" min="0" max="100" value="100" id="volumen">
-        </div>
-        <div class="lista-canciones" id="lista-canciones"></div>
-        <div class="contador-like">
-            <button class="btn btn-dark" id="botao" onclick="adicionarLike()">♡</button>
-        </div>
-    </div>
-    <div class="foro-lideres-reguion position-relative d-inline-block ">
-        <h2 class="lideres-de-la-region">Foro lideres de la regíon</h2>
-        <h2 class="eventos-info">Eventos</h2>
-        <img class="lapatria-img1 img-fluid rounded" src="recursos/img/laptria-img1.jpg" alt="lapatria-img1">
-        <div
-            class="fondo-texto info-que-tanmto-sabes position-absolute bottom-0 start-0 text-start text-white bg-opacity-50 p-3 rounded">
-            <h3>¿Que tanto conoces de la patria?</h3>
-            <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
-            </p>
-        </div>
-    </div>
-    <div class="eventos">
-        <img src="" alt="">
-    </div>
-    <div class="familia-comedor">
-        <img class="familia-comedor rounded position-relative" src="recursos/familia-comiendo.png"
-            alt="familia-comedor">
-    </div>
-    <div class="homenaje-historico position-relative d-inline-block ">
-        <img class="samana-img img-fluid rounded" src="recursos/img/noticias/Samana-Caldas.jpeg" alt="lapatria-img1">
-        <div
-            class="fondo-texto1 info-que-tanmto-sabes position-absolute bottom-0 start-0 text-start text-white bg-black bg-opacity-50 p-3 rounded">
-            <h3><b>Homenaje historico</b></h3>
-            <p><b>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
-                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
-                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</b> <br>
-            </p>
-        </div>
-    </div>
-
-
     <div class="fondo-pie-de-paguina ">
         <div class="pie-de-paguina">
             <h3 class="bg-black text-center"> <a href="https://www.lapatria.com/"
