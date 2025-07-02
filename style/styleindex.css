@@ -1,10 +1,23 @@
+.texto-inferior1-emprend {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    border: solid blue;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 3;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     width: 100vw;
     max-width: 100vw;
     overflow-x: hidden;
@@ -397,93 +410,40 @@ a {
 .viejitos-text {
     position: relative;
     display: inline-block;
-    width: 50%;
-    padding: 20px;
     vertical-align: top;
-    margin-left: 20px;
-}
-
-.viejitos {
-    width: 36%;
-}
-
-.text-losnuevos-empresarios {
-    position: relative;
-    top: -1230px;
-    left: 360px;
-    max-width: 600px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.los-nuevos-empresarios1 {
-    position: relative;
-    left: 380px;
-    top: -1230px;
-    border: 2px solid #8b8c8a;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #dcdee0;
-    max-width: 700px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-}
-
-.texto-inferior1 {
-    position: relative;
-    left: 380px;
-    top: -1240px;
-    width: 700px;
-    max-width: 700px;
-    background-color: blue;
-    border: 2px solid blue;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0;
-    border-radius: 5px;
-}
-
-.los-nuevos-empresarios2 {
-    position: relative;
-    left: 1155px;
-    top: -1575px;
-    border: 2px solid #8b8c8a;
-    padding: 15px;
-    border-radius: 5px;
-    background-color: #dcdee0;
-    max-width: 725px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-    margin-bottom: 10px;
-
-}
-
-.texto-inferior2 {
-    position: relative;
-    left: -18px;
-    top: 17px;
-    width: 725px;
-    max-width: 725px;
-    background-color: blue;
-    border: 2px solid blue;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0;
-    border-radius: 5px;
-}
-
-.trabajador-img {
-    width: 34%;
 }
 
 .trabajador-text {
     position: relative;
-    display: inline-block;
-    width: 50%;
-    padding: 20px;
     vertical-align: top;
-    margin-left: 20px;
 }
+
+
+
+.los-nuevos-empresarios1 {
+    position: relative;
+    border: 2px solid #8b8c8a;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #dcdee0;
+    max-width: 700px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+
+.texto-inferior1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    border: solid blue;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 16px 0 8px 0;
+    z-index: 3;
+}
+
 
 .las-500-empresas {
     position: relative;
@@ -706,6 +666,7 @@ a {
 .fondo-pie-de-paguina {
     background-color: rgba(165, 54, 146, 255);
 }
-.color-m{
+
+.color-m {
     color: #975dd8;
 }
