@@ -78,15 +78,6 @@ a {
     max-width: 350px;
 }
 
-.carrucel {
-    max-width: 30%;
-    width: 26%;
-    position: relative;
-    left: 38%;
-    top: 60px;
-
-}
-
 .sliders {
     display: none;
     width: 100%;
@@ -229,6 +220,7 @@ a {
 .plaza1 {
     width: 400px;
     height: 400px;
+    align-items: center;
 }
 
 .fenalco1 {
@@ -238,24 +230,12 @@ a {
 
 .nexia1 {
     width: 500px;
-}
-
-.destacado {
-    position: relative;
-    left: 75%;
-    top: -646px;
+    align-items: center;
 }
 
 .salimina-caldas {
     width: 100%;
 
-}
-
-.noticias1 {
-    position: relative;
-
-    top: -560px;
-    left: -350px;
 }
 
 .noticia-contenedor1 {
@@ -281,21 +261,10 @@ a {
     border-radius: 12px;
 }
 
-.noticias2 {
-    position: relative;
-    top: -1040px;
-    left: 150px;
-}
-
 .sanvicente1 {
     width: 100%;
 }
 
-.noticias3 {
-    position: relative;
-    top: -1050px;
-    left: -350px;
-}
 
 .noticia-contenedor3 {
     max-width: 450px;
@@ -304,12 +273,6 @@ a {
     background-color: #f8f9fa;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
     border-radius: 12px;
-}
-
-.noticias4 {
-    position: relative;
-    top: -1250px;
-    left: 150px;
 }
 
 .noticia-contenedor4 {
@@ -412,12 +375,6 @@ a {
     display: inline-block;
     vertical-align: top;
 }
-
-.trabajador-text {
-    position: relative;
-    vertical-align: top;
-}
-
 
 
 .los-nuevos-empresarios1 {
@@ -663,6 +620,7 @@ a {
 .color-m {
     color: #975dd8;
 }
+
 .lista-musica {
     background-color: #717171;
 }
