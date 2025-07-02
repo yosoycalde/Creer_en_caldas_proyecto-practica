@@ -494,13 +494,6 @@ a {
     margin-top: 16px;
 }
 
-.lista-musica {
-    position: relative;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-}
-
 .lista-canciones {
     max-height: 680px;
     min-height: 120px;
@@ -669,4 +662,7 @@ a {
 
 .color-m {
     color: #975dd8;
+}
+.lista-musica {
+    background-color: #717171;
 }
