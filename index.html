@@ -115,28 +115,39 @@
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
-
-    <section>
-        <div class="noticias1">
-            <h2 class="text-info1 text-info">Noticias</h2>
-            <div class="noticia-contenedor1 shadow-none p-3 mb-3 bg-light rounded">
-                <img src="recursos/img/noticias/salamina-caldas.jpeg" class="salimina-caldas">
-                <h3 class="titulo-noticia1">La Patria recibe homenajes <br> en su primer siglo </h3>
-                <p class="detalles-noticia1">La filarmonica de Caldas Interprete de Caldas Interpreto <br>
-                    "menea tu chapa" al ritmo de pasillo</p>
-            </div>
-        </div>
-    </section>
-
-    <div class="noticias2">
-        <div class="noticia-contenedor2 shadow-none p-3 mb-3 bg-light rounded">
-            <img src="recursos/img/noticias/Salamina-San-Vicente-01.jpg" class="sanvicente1">
-            <h3 class="titulo-noticia2">La Patria recibe homenajes <br> en su primer siglo </h3>
-            <p class="detalles-noticia2">La filarmonica de Caldas Interprete de Caldas Interpreto <br>
-                "menea tu chapa" al ritmo de pasillo</p>
+    <div class="row">
+        <div class="col-md-6 d-flex justify-content-center">
+            <h2 class="text-info align-items-center position-relative">Noticias</h2>
         </div>
     </div>
-
+    <div class="container">
+        <div class="row justify-content-center align-items-stretch">
+            <div class="col-12 col-md-6 mb-4 d-flex flex-column align-items-center">
+                <div class="img-fluid w-75">
+                    <div class="w-100 mb-3 d-flex justify-content-start">
+                    </div>
+                    <div class="noticia-contenedor1 shadow-none p-3 mb-3 bg-light rounded">
+                        <img src="recursos/img/noticias/salamina-caldas.jpeg" class="w-100 img-fluid">
+                        <h3 class="titulo-noticia1">La Patria recibe homenajes <br> en su primer siglo </h3>
+                        <p class="detalles-noticia1">La filarmonica de Caldas Interprete de Caldas Interpreto <br>
+                            "menea tu chapa" al ritmo de pasillo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4 d-flex flex-column align-items-center">
+                <div class="img-fluid w-75">
+                    <div class="noticia-contenedor2 shadow-none p-3 mb-3 bg-light rounded">
+                        <img src="recursos/img/noticias/Salamina-San-Vicente-01.jpg" class="w-100 img-fluid"
+                            alt="Noticia 2">
+                        <h3 class="titulo-noticia2">La Patria recibe homenajes <br> en su primer siglo </h3>
+                        <p>La filarmonica de Caldas Interprete de Caldas Interpreto <br>
+                            "menea tu chapa" al ritmo de pasillo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
     <div class="noticias3">
         <div class="noticia-contenedor3 shadow-none p-3 mb-3 bg-light rounded">
             <h3 class="titulo-noticia3">La Patria recibe homenajes <br> en su primer siglo </h3>
@@ -168,54 +179,68 @@
                     <img src="recursos/img/mas-info.png"> </a> </button>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
     <div class="container">
-      <div class="row justify-content-center align-items-stretch g-4 flex-row">
-        <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
-          <div class="img-fluid w-100 h-100 d-flex flex-column justify-content-center"
-            style="max-width: 400px; min-height: 350px;">
-            <div>
-              <h3 class="text-white text-empresas-ingresos">LAS EMPRESAS CON MAYORES INGRESOS</h3>
-              <img src="recursos/img/ranking/empresas-lideres-caldas-activos.jpg" class="ranking-caldas">
-              <div class="top-tec">
-                <h1 class="text-white">Top tec</h1>
-                <p class="text-white">lider de rendimiento desde 2022</p>
-              </div>
+        <div class="row justify-content-center align-items-stretch g-4 flex-row">
+            <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
+                <div class="img-fluid w-100 h-100 d-flex flex-column justify-content-center"
+                    style="max-width: 400px; min-height: 350px;">
+                    <div>
+                        <h3 class="text-white text-empresas-ingresos">LAS EMPRESAS CON MAYORES INGRESOS</h3>
+                        <img src="recursos/img/ranking/empresas-lideres-caldas-activos.jpg" class="ranking-caldas">
+                        <div class="top-tec">
+                            <h1 class="text-white">Top tec</h1>
+                            <p class="text-white">lider de rendimiento desde 2022</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
+                <div class="lista-musica container w-100 h-100 rounded position-relative ms-4 me-0 col-sm-10 img-fluid d-flex flex-column justify-content-center"
+                    style="max-width: 400px; min-height: 350px;"> <!-- Espacio a la izquierda -->
+                    <div class="info-musica">
+                        <h2 class="titulo-musica">Reproductor de Música</h2>
+                        <div class="albun-musica" id="albun-musica">
+                            <div class="por-defecto">🎵</div>
+                        </div>
+                        <div class="contador-like">
+                            <button class="btn btn-dark" id="botao" onclick="adicionarLike()">♡</button>
+                        </div>
+                        <p id="cancion-info">Seleccione canción</p>
+                    </div>
+                    <div class="contenedor-proceso-cancion" id="contenedor-proceso-cancion">
+                        <div class="progreso" id="progreso"></div>
+                    </div>
+                    <div class="timpo-cancion">
+                        <span id="tiempo-actual">0:00</span>
+                        <span id="duracion">0:00</span>
+                    </div>
+                    <div class="controles">
+                        <button id="cancion-anterior" class="btn btn-dark">⏮</button>
+                        <button id="iniciar-cancion" class="btn btn-dark">▶</button>
+                        <button id="cancion-siguiente" class="btn btn-dark">⏭</button>
+                    </div>
+                    <div class="volumen-contenedor">
+                        <span>🔊</span>
+                        <input type="range" class="volume-slider" min="0" max="100" value="100" id="volumen">
+                    </div>
+                    <div class="lista-canciones w-75 h-25" id="lista-canciones"></div>
+                </div>
+            </div>
         </div>
-        <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
-          <div class="lista-musica container w-100 h-100 rounded position-relative ms-4 me-0 col-sm-10 img-fluid d-flex flex-column justify-content-center"
-            style="max-width: 400px; min-height: 350px;"> <!-- Espacio a la izquierda -->
-            <div class="info-musica">
-              <h2 class="titulo-musica">Reproductor de Música</h2>
-              <div class="albun-musica" id="albun-musica">
-                <div class="por-defecto">🎵</div>
-              </div>
-              <div class="contador-like">
-                <button class="btn btn-dark" id="botao" onclick="adicionarLike()">♡</button>
-              </div>
-              <p id="cancion-info">Seleccione canción</p>
-            </div>
-            <div class="contenedor-proceso-cancion" id="contenedor-proceso-cancion">
-              <div class="progreso" id="progreso"></div>
-            </div>
-            <div class="timpo-cancion">
-              <span id="tiempo-actual">0:00</span>
-              <span id="duracion">0:00</span>
-            </div>
-            <div class="controles">
-              <button id="cancion-anterior" class="btn btn-dark">⏮</button>
-              <button id="iniciar-cancion" class="btn btn-dark">▶</button>
-              <button id="cancion-siguiente" class="btn btn-dark">⏭</button>
-            </div>
-            <div class="volumen-contenedor">
-              <span>🔊</span>
-              <input type="range" class="volume-slider" min="0" max="100" value="100" id="volumen">
-            </div>
-            <div class="lista-canciones w-75 h-25" id="lista-canciones"></div>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="text-info d-flex justify-content-center mt-4">
         <h2 class="">Los nuevos empresarios</h2>

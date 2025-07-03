@@ -233,13 +233,7 @@ a {
     align-items: center;
 }
 
-.salimina-caldas {
-    width: 100%;
-
-}
-
 .noticia-contenedor1 {
-    max-width: 450px;
     margin: 30px auto;
     padding: 20px 25px;
     background-color: #f8f9fa;
@@ -249,22 +243,15 @@ a {
 
 .text-info1 {
     position: relative;
-    left: 750px;
 }
 
 .noticia-contenedor2 {
-    max-width: 450px;
     margin: 30px auto;
     padding: 20px 25px;
     background-color: #f8f9fa;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
     border-radius: 12px;
 }
-
-.sanvicente1 {
-    width: 100%;
-}
-
 
 .noticia-contenedor3 {
     max-width: 450px;
