@@ -164,11 +164,6 @@ a {
     border-radius: 2px;
 }
 
-.active,
-.quadrate:hover {
-    background-color: #045c1a;
-}
-
 @media screen and (max-width:900px) {
     .carrucel {
         width: 100%;
@@ -586,4 +581,12 @@ a {
 
 .color-m {
     color: #975dd8;
+}
+
+.bonton-previo {
+    background-color: #0000006b;
+}
+
+.boton-siguiente {
+    background-color: #0000006b;
 }
