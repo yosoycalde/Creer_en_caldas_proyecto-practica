@@ -299,7 +299,7 @@ a {
 
 .ranking-caldas {
     text-align: center;
-    width: 950px;
+    width: 940px;
     position: relative;
     display: block;
     margin: 0 auto;
@@ -320,13 +320,6 @@ a {
     left: 0;
 }
 
-.las-empresas-con-mayores-ingresos {
-    position: relative;
-    top: -1240px;
-    left: -100px;
-    width: 950px;
-    margin: 0 auto;
-}
 
 .ant,
 .sig {
@@ -591,8 +584,6 @@ a {
 
 .contador-like {
     position: relative;
-    left: 180px;
-    top: -900px;
 }
 
 
@@ -619,8 +610,4 @@ a {
 
 .color-m {
     color: #975dd8;
-}
-
-.lista-musica {
-    background-color: #717171;
 }

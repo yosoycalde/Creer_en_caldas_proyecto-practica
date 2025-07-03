@@ -151,14 +151,7 @@
                 "menea tu chapa" al ritmo de pasillo</p>
         </div>
     </div>
-    <div class="las-empresas-con-mayores-ingresos">
-        <h3 class="text-white text-empresas-ingresos">LAS EMPRESAS CON MAYORES INGRESOS</h3>
-        <img src="recursos/img/ranking/empresas-lideres-caldas-activos.jpg" class="ranking-caldas">
-        <div class="top-tec">
-            <h1 class="text-white top-tec1">Top tec</h1>
-            <p class="text-white" class="lider-de-rendimiento">lider de rendimiento desde 2022</p>
-        </div>
-    </div>
+
     <div class="cafetero-empresas-img">
         <div class="las-500-empresas">
             <div class="text-white">
@@ -175,44 +168,54 @@
                     <img src="recursos/img/mas-info.png"> </a> </button>
         </div>
     </div>
-    <!-- lista de reproduciion -->
     <div class="container">
-        <div class="row">
-            <div class="col-sm-9 col-md-4">
-                <div class="lista-musica container w-75 rounded position-relative ms-auto me-0 col-sm-9 ">
-                    <div class="info-musica">
-                        <h2 class="titulo-musica">Reproductor de Música</h2>
-                        <div class="albun-musica" id="albun-musica">
-                            <div class="por-defecto">🎵</div>
-                        </div>
-                        <p id="cancion-info">Seleccione canción</p>
-                    </div>
-
-                    <div class="contenedor-proceso-cancion" id="contenedor-proceso-cancion">
-                        <div class="progreso" id="progreso"></div>
-                    </div>
-                    <div class="timpo-cancion">
-                        <span id="tiempo-actual">0:00</span>
-                        <span id="duracion">0:00</span>
-                    </div>
-
-                    <div class="controles">
-                        <button id="cancion-anterior" class="btn btn-dark">⏮</button>
-                        <button id="iniciar-cancion" class="btn btn-dark">▶</button>
-                        <button id="cancion-siguiente" class="btn btn-dark">⏭</button>
-                    </div>
-
-                    <div class="volumen-contenedor">
-                        <span>🔊</span>
-                        <input type="range" class="volume-slider" min="0" max="100" value="100" id="volumen">
-                    </div>
-                    <div class="lista-canciones w-75 h-50" id="lista-canciones"></div>
-                    <div class="contador-like">
-                        <button class="btn btn-dark" id="botao" onclick="adicionarLike()">♡</button>
-                    </div>
-                </div>
+      <div class="row justify-content-center align-items-stretch g-4 flex-row">
+        <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
+          <div class="img-fluid w-100 h-100 d-flex flex-column justify-content-center"
+            style="max-width: 400px; min-height: 350px;">
+            <div>
+              <h3 class="text-white text-empresas-ingresos">LAS EMPRESAS CON MAYORES INGRESOS</h3>
+              <img src="recursos/img/ranking/empresas-lideres-caldas-activos.jpg" class="ranking-caldas">
+              <div class="top-tec">
+                <h1 class="text-white">Top tec</h1>
+                <p class="text-white">lider de rendimiento desde 2022</p>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
+          <div class="lista-musica container w-100 h-100 rounded position-relative ms-4 me-0 col-sm-10 img-fluid d-flex flex-column justify-content-center"
+            style="max-width: 400px; min-height: 350px;"> <!-- Espacio a la izquierda -->
+            <div class="info-musica">
+              <h2 class="titulo-musica">Reproductor de Música</h2>
+              <div class="albun-musica" id="albun-musica">
+                <div class="por-defecto">🎵</div>
+              </div>
+              <div class="contador-like">
+                <button class="btn btn-dark" id="botao" onclick="adicionarLike()">♡</button>
+              </div>
+              <p id="cancion-info">Seleccione canción</p>
+            </div>
+            <div class="contenedor-proceso-cancion" id="contenedor-proceso-cancion">
+              <div class="progreso" id="progreso"></div>
+            </div>
+            <div class="timpo-cancion">
+              <span id="tiempo-actual">0:00</span>
+              <span id="duracion">0:00</span>
+            </div>
+            <div class="controles">
+              <button id="cancion-anterior" class="btn btn-dark">⏮</button>
+              <button id="iniciar-cancion" class="btn btn-dark">▶</button>
+              <button id="cancion-siguiente" class="btn btn-dark">⏭</button>
+            </div>
+            <div class="volumen-contenedor">
+              <span>🔊</span>
+              <input type="range" class="volume-slider" min="0" max="100" value="100" id="volumen">
+            </div>
+            <div class="lista-canciones w-75 h-25" id="lista-canciones"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="text-info d-flex justify-content-center mt-4">
         <h2 class="">Los nuevos empresarios</h2>
