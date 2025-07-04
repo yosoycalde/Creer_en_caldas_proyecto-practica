@@ -446,9 +446,8 @@ a {
 }
 
 .cancion.activa {
-    background: #568a64;
+    background: #5928a8a2;
     font-weight: bold;
-    color: #9049e1;
 }
 
 .numero-cancion {
@@ -561,19 +560,9 @@ a {
     position: relative;
 }
 
-
-
-
-.fondo-texto {
-    background-color: #7423d177;
-    width: 100%;
-}
-
 .morado {
     background-color: rgba(102, 13, 102, 0.664);
 }
-
-
 
 .fondo-pie-de-paguina {
     background-color: rgba(165, 54, 146, 255);
