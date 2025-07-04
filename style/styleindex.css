@@ -75,157 +75,16 @@ a {
     left: 75%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    max-width: 350px;
+    max-width: 100%;
 }
 
-.sliders {
-    display: none;
-    width: 100%;
-}
-
-.sig {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6 ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    border: solid #fff 2px;
-}
-
-.sig {
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
 .elementos {
     text-align: center;
 }
 
-.carr {
-    cursor: pointer;
-    height: 4px;
-    width: 50px;
-    margin: 0, 2px;
-    background-color: #717171;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    border-radius: 2px;
-}
-
-.ant,
-.sig {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #4e2626;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6 ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    border: solid #2c1a1a 2px;
-}
-
-.sig {
-    border-radius: 3px 0 0 3px;
-}
-
-.ant:hover,
-.sig:hover {
-    background-color: rgb(0, 0, 0);
-}
-
 .elementos {
     text-align: center;
-}
-
-.carr {
-    cursor: pointer;
-    height: 4px;
-    width: 50px;
-    margin: 0 2px;
-    background-color: #717171;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    border-radius: 2px;
-}
-
-@media screen and (max-width:900px) {
-    .carrucel {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .carrucel {
-        width: 100%;
-    }
-
-    .ant,
-    .sig {
-        padding: 5px;
-    }
-}
-
-.aladino1 {
-    width: 500px;
-}
-
-.bellota1 {
-    width: 500px;
-}
-
-.gold1 {
-    height: 200px;
-    width: 500px;
-}
-
-.fundadores1 {
-    width: 500px;
-}
-
-.aris1 {
-    width: 500px;
-    height: 175px;
-}
-
-.celar1 {
-    width: 500px;
-    height: 350px;
-}
-
-.fundadores1 {
-    width: 500px;
-}
-
-.plaza1 {
-    width: 400px;
-    height: 400px;
-    align-items: center;
-}
-
-.fenalco1 {
-    width: 500px;
-    align-items: center;
-}
-
-.nexia1 {
-    width: 500px;
-    align-items: center;
 }
 
 .noticia-contenedor1 {
@@ -300,49 +159,6 @@ a {
     box-sizing: border-box;
     position: relative;
     left: 0;
-}
-
-
-.ant,
-.sig {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #4e2626;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    user-select: none;
-    border: 2px solid #2c1a1a;
-}
-
-.ant {
-    left: -50px;
-    border-radius: 3px 0 0 3px;
-}
-
-.sig {
-    right: -50px;
-    border-radius: 0 3px 3px 0;
-}
-
-.ant:hover,
-.sig:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #ffffff;
-}
-
-@media screen and (max-width: 1200px) {
-    .ant {
-        left: 0;
-    }
-
-    .sig {
-        right: 0;
-    }
 }
 
 .viejitos-text {
@@ -585,6 +401,7 @@ a {
         transform: translateX(13%);
     }
 }
-.ranking-caldas{
+
+.ranking-caldas {
     width: 237%;
 }
