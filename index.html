@@ -202,7 +202,8 @@
     <hr>
     <div class="container">
         <div class="row justify-content-center align-items-stretch g-4 flex-row">
-            <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
+            <!-- Primer div: Top Tec (ahora a la izquierda) -->
+            <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
                 <div class="img-fluid w-100 h-100 d-flex flex-column justify-content-center"
                     style="max-width: 400px; min-height: 350px;">
                     <div>
@@ -215,9 +216,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
-                <div class="lista-musica container w-100 h-100 rounded position-relative ms-4 me-0 col-sm-10 img-fluid d-flex flex-column justify-content-center"
-                    style="max-width: 400px; min-height: 350px;"> <!-- Espacio a la izquierda -->
+            <!-- Segundo div: Reproductor de música (ahora a la derecha) -->
+            <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
+                <div class="lista-musica container w-100 h-100 rounded position-relative ms-0 me-4 col-sm-10 img-fluid d-flex flex-column justify-content-center"
+                    style="max-width: 400px; min-height: 350px;"> <!-- Cambiado: ms-4 me-0 a ms-0 me-4 para espacio a la derecha -->
                     <div class="info-musica">
                         <h2 class="titulo-musica">Reproductor de Música</h2>
                         <div class="albun-musica" id="albun-musica">
