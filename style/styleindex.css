@@ -590,3 +590,9 @@ a {
 .boton-siguiente {
     background-color: #0000006b;
 }
+
+@media (min-width: 768px) {
+    .lista-musica {
+        transform: translateX(20px);
+    }
+}
