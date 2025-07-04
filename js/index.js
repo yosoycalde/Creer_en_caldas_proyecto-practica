@@ -87,7 +87,19 @@ const canciones = [
         artist: "The Weeknd",
         path: "music/The Weeknd - Drive (Audio)(MP3_160K).mp3",
         cover: "recursos/imgMusica/The Weeknd - Drive (Audio)(MP3_160K).jpg"
-    }
+    },
+    {
+        title: "La Vuelta",
+        artist: "Mañas ru fino, Feid",
+        path: "music/Feid_ Mañas Ru-Fino - La Vuelta (Official Video)(MP3_160K).mp3",
+        cover: "recursos/imgMusica/Feid_ Mañas Ru-Fino - La Vuelta (Official Video)(MP3_160K).jpg"
+    },
+    {
+        title: "2-Sangre",
+        artist: "Al2 El Aldeano",
+        path: "music/2- Sangre - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "recursos/imgMusica/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
 ]
 
 let cancionActual = 0;
