@@ -78,15 +78,15 @@ const canciones = [
     },
     {
         title: "Adonay",
-        artist: "Sin registro",
+        artist: "Don rodolfo :)",
         path: "music/Adonay(MP3_160K).mp3",
-        cover: "recursos/imgMusica/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
+        cover: "recursos/imgMusica/Adonay(MP3_160K).jpg"
     },
     {
         title: "Drive",
         artist: "The Weeknd",
         path: "music/The Weeknd - Drive (Audio)(MP3_160K).mp3",
-        cover: "recursos/imgMusica/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
+        cover: "recursos/imgMusica/The Weeknd - Drive (Audio)(MP3_160K).jpg"
     }
 ]
 

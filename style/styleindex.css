@@ -372,6 +372,14 @@ a {
     max-width: 100%;
 }
 
+.album-img-12 {
+    width: 150px !important;
+    height: 70px !important;
+    display: block;
+    max-width: 100%;
+}
+
+
 .contador-like {
     position: relative;
 }
