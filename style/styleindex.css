@@ -593,6 +593,6 @@ a {
 
 @media (min-width: 768px) {
     .lista-musica {
-        transform: translateX(20px);
+        transform: translateX(13%);
     }
 }
