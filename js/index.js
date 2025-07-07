@@ -280,9 +280,6 @@ const canciones = [
         path: "music/The Trooper (2015 Remaster)(MP3_160K).mp3",
         cover: "recursos/imgMusica/trhopper.jpg"
     },
-
-
-
 ]
 
 let cancionActual = 0;
