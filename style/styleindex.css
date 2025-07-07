@@ -271,242 +271,23 @@ a {
 .album-img-2,
 .album-img-3,
 .album-img-6,
-.album-img-7,
-.album-img-8,
-.album-img-9,
-.album-img-10,
-.album-img-11 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-4,
-.album-img-5 {
-    width: 180px !important;
-    height: 100px !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-12 {
-    width: 180px !important;
-    height: 80px !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-13 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-14 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-15 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-16 {
-    width: 180px !important;
-    height: 90px !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-17 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-18 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-19 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-20 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-21 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-22 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-23 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-24 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-25 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-26 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-27 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-28 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-29 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-30 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-31 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-32 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-33 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-34 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-35 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-36 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-37 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-38 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-39 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-40 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-41 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-42 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
+.album-img-11,
+.album-img-12,
+.album-img-13,
+.album-img-14,
+.album-img-15,
+.album-img-17,
+.album-img-21,
+.album-img-23,
+.album-img-25,
+.album-img-26,
+.album-img-30,
+.album-img-31,
+.album-img-37,
+.album-img-39,
+.album-img-40,
+.album-img-41,
+.album-img-42,
 .album-img-43 {
     width: 180px !important;
     height: auto !important;
@@ -514,7 +295,32 @@ a {
     max-width: 100%;
 }
 
-
+.album-img-4,
+.album-img-5,
+.album-img-8,
+.album-img-7,
+.album-img-9,
+.album-img-10,
+.album-img-16,
+.album-img-18,
+.album-img-19,
+.album-img-20,
+.album-img-22,
+.album-img-24,
+.album-img-27,
+.album-img-28,
+.album-img-29,
+.album-img-32,
+.album-img-33,
+.album-img-34,
+.album-img-35,
+.album-img-36,
+.album-img-38 {
+    width: 180px !important;
+    height: 100px !important;
+    display: block;
+    max-width: 100%;
+}
 
 .contador-like {
     position: relative;
