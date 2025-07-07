@@ -380,9 +380,10 @@ a {
 }
 
 .img-creer {
-    max-width: 400px;
-    width: 250px;
-
+    max-width: 50%;
+    height: auto;
+    z-index: 2;
+    width: 75%;
 }
 
 .una-mirada {
@@ -390,6 +391,7 @@ a {
     width: 100%;
     top: 30%;
     left: 75%;
+    max-width: 50%;
 }
 
 .video-creer {
