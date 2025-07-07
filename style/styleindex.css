@@ -361,3 +361,20 @@ a {
 .img-samana {
     height: 50%;
 }
+
+.carrucel-contenedor {
+    max-width: 400px;
+}
+
+.ranking-empresas {
+    object-fit: cover;
+    min-height: 450px;
+    max-height: 100%;
+}
+
+.listaMusica  {
+    max-width: 400px;
+    min-height: 350px;
+    margin-right: 0;
+    margin-left: auto;
+}
