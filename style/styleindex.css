@@ -372,9 +372,15 @@ a {
     max-height: 100%;
 }
 
-.listaMusica  {
+.listaMusica {
     max-width: 400px;
     min-height: 350px;
     margin-right: 0;
     margin-left: auto;
+}
+
+.img-creer {
+    max-width: 400px;
+    width: 250px;
+
 }

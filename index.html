@@ -41,23 +41,21 @@
                 </button>
             </div>
     </div>
-    <div class="imagen-container rounded img-fluid">
-        <div class="img-fluid container-fluid">
-            <img src="recursos/fondo.jpg" alt="imagenfondo" class="background-img img-fluid">
+    <div class="container-fluid p-0 position-relative">
+        <img src="recursos/fondo.jpg" alt="imagenfondo" class="img-fluid w-100 d-block" style="height: 50vw; min-height: 300px; max-height: 900px; object-fit: cover;">
+        <div class="img-fondo position-absolute top-0 start-50 translate-middle-x mt-4" style="z-index:2; width: 100%; max-width: 600px;">
+            <img src="recursos/img/logo-creer-en-caldas.png" alt="imagensuperpuesta" class="img-creer img-fluid mx-auto d-block w-100">
         </div>
-        <div class="img-fluid">
-            <img src="recursos/img/logo-creer-en-caldas.png" alt="imagensuperpuesta" class="overlay-img">
+        <div class="position-absolute top-50 start-75 translate-middle" style="z-index:2; width: 25%; min-width: 120px;">
+            <img src="recursos/img/la-patria-impresos.png" alt="ingresoslapatria" class="img-fluid w-100">
         </div>
-        <div class="img-fluid">
-            <img src="recursos/img/la-patria-impresos.png" alt="ingresoslapatria" class="overlay-img1 w-25">
+        <div class="position-absolute bottom-0 start-50 translate-middle-x" style="z-index:2; width: 100%; max-width: 560px;">
+            <iframe class="w-100" style="aspect-ratio: 16/9; min-height: 180px;" src="https://www.youtube.com/embed/yP_hw6I-pBQ?si=3qCq0Y_3whhZnWOX" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <iframe class="video1 container w-25 h-25" width="560" height="315"
-            src="https://www.youtube.com/embed/yP_hw6I-pBQ?si=3qCq0Y_3whhZnWOX" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-        <div class="text-white">
-            <h3 class="info1"> Una mirada al <br> <b>futuro</b> de nuetra <b> <br> región </b></h3>
+        <div class="position-absolute top-50 start-50 translate-middle text-white text-center" style="z-index:3; width: 100%;">
+            <h3 class="fw-bold"> Una mirada al <br> <b>futuro</b> de nuestra <b><br>región</b></h3>
         </div>
     </div>
     <div id="inicio"></div>
