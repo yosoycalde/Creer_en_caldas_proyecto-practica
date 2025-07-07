@@ -87,7 +87,11 @@ a {
     text-align: center;
 }
 
-.noticia-contenedor1 {
+.noticia-contenedor1,
+.noticia-contenedor2,
+.noticia-contenedor3,
+.noticia-contenedor4 {
+    max-width: 450px;
     margin: 30px auto;
     padding: 20px 25px;
     background-color: #f8f9fa;
@@ -97,32 +101,6 @@ a {
 
 .text-info1 {
     position: relative;
-}
-
-.noticia-contenedor2 {
-    margin: 30px auto;
-    padding: 20px 25px;
-    background-color: #f8f9fa;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-    border-radius: 12px;
-}
-
-.noticia-contenedor3 {
-    max-width: 450px;
-    margin: 30px auto;
-    padding: 20px 25px;
-    background-color: #f8f9fa;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-    border-radius: 12px;
-}
-
-.noticia-contenedor4 {
-    max-width: 450px;
-    margin: 30px auto;
-    padding: 20px 25px;
-    background-color: #f8f9fa;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-    border-radius: 12px;
 }
 
 .text-empresas-ingresos {
@@ -288,86 +266,26 @@ a {
     color: #666;
 }
 
-.album-img-0 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-1 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-2 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-3 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-4 {
-    width: 180px !important;
-    height: 85px !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-5 {
-    width: 180px !important;
-    height: 85px !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-6 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-7 {
-    width: 180px !important;
-    height: 85px !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-8 {
-    width: 180px !important;
-    height: 85px !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-9 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
-.album-img-10 {
-    width: 180px !important;
-    height: auto !important;
-    display: block;
-    max-width: 100%;
-}
-
+.album-img-0,
+.album-img-1,
+.album-img-2,
+.album-img-3,
+.album-img-6,
+.album-img-7,
+.album-img-8,
+.album-img-9,
+.album-img-10,
 .album-img-11 {
     width: 180px !important;
     height: auto !important;
+    display: block;
+    max-width: 100%;
+}
+
+.album-img-4,
+.album-img-5 {
+    width: 180px !important;
+    height: 100px !important;
     display: block;
     max-width: 100%;
 }
