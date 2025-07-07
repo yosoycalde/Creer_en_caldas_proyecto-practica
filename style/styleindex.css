@@ -351,3 +351,13 @@ a {
         transform: translateX(13%);
     }
 }
+
+.samana-img {
+    height: 270px;
+    max-height: 500%;
+
+}
+
+.img-samana {
+    height: 50%;
+}
