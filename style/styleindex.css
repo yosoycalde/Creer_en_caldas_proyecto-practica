@@ -118,10 +118,10 @@ a {
 
 .ranking-caldas {
     text-align: center;
-    width: 940px;
     position: relative;
     display: block;
     margin: 0 auto;
+    width: 210%;
 
 }
 
@@ -350,8 +350,4 @@ a {
     .lista-musica {
         transform: translateX(13%);
     }
-}
-
-.ranking-caldas {
-    width: 237%;
 }
