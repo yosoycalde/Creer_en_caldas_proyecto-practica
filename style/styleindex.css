@@ -384,3 +384,23 @@ a {
     width: 250px;
 
 }
+
+.una-mirada {
+    z-index: 3;
+    width: 100%;
+    top: 30%;
+    left: 75%;
+}
+
+.video-creer {
+    aspect-ratio: 16/9;
+    min-height: 180px;
+    max-width: 450px;
+}
+
+.recursos-de-fondo {
+    height: 50vw;
+    min-height: 300px;
+    max-height: 900px;
+    object-fit: cover
+}
