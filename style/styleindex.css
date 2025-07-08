@@ -454,3 +454,8 @@ a {
     object-fit: cover;
     height: 200px;
 }
+
+.listaMusica {
+    position: relative;
+    right: -4%;
+}
