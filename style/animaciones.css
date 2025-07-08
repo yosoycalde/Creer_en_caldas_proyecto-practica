@@ -1,41 +1,78 @@
 /* Animación para los botones del header */
 .animar-header-btn {
-  animation: headerBtnPulse 0.4s cubic-bezier(0.4,0,0.2,1);
+  animation: headerBtnPulse 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 0 12px 2px #41a40355, 0 2px 8px #0002;
   border-color: #41a403 !important;
   background: linear-gradient(90deg, #41a403 30%, #2196f3 100%) !important;
   color: #fff !important;
 }
+
 @keyframes headerBtnPulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.10) rotate(-2deg); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.10) rotate(-2deg);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
+
 /* Animaciones para mejorar lo visual */
 .animar-album {
   animation: albumPop 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 @keyframes albumPop {
-  0% { transform: scale(1); box-shadow: 0 0 0 rgba(0,0,0,0); }
-  50% { transform: scale(1.08); box-shadow: 0 8px 32px rgba(0,0,0,0.18); }
-  100% { transform: scale(1); box-shadow: 0 0 0 rgba(0,0,0,0); }
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 
 .animar-boton {
   animation: botonPulse 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 @keyframes botonPulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.15); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .animar-progreso {
   animation: barraFlash 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 @keyframes barraFlash {
-  0% { background: #fff700; }
-  100% { background: #2196f3; }
+  0% {
+    background: #fff700;
+  }
+
+  100% {
+    background: #2196f3;
+  }
 }
 
 /* --- Animaciones generales para el resto de la página --- */
@@ -43,38 +80,96 @@
   opacity: 0;
   animation: fadeInAnim 1s forwards;
 }
+
 @keyframes fadeInAnim {
-  to { opacity: 1; }
+  to {
+    opacity: 1;
+  }
 }
 
 .animar-tarjeta {
-  animation: tarjetaPop 0.5s cubic-bezier(0.4,0,0.2,1);
-  box-shadow: 0 8px 32px rgba(33,150,243,0.18);
+  animation: tarjetaPop 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 32px rgba(33, 150, 243, 0.18);
   border-color: #2196f3 !important;
 }
+
 @keyframes tarjetaPop {
-  0% { transform: scale(1); }
-  60% { transform: scale(1.04); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.04);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .animar-ingresa {
-  animation: ingresaPulse 0.6s cubic-bezier(0.4,0,0.2,1);
+  animation: ingresaPulse 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 0 16px 4px #41a40355;
   border-color: #41a403 !important;
 }
+
 @keyframes ingresaPulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.08); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .animar-img-carrusel {
-  animation: imgBounce 0.5s cubic-bezier(0.4,0,0.2,1);
+  animation: imgBounce 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   filter: brightness(1.15) drop-shadow(0 0 8px #fff70088);
 }
+
 @keyframes imgBounce {
-  0% { transform: scale(1); }
-  40% { transform: scale(1.12) rotate(-2deg); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.12) rotate(-2deg);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.lapatria-animado {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.lapatria-animado::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #00bfff, #fff700);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.lapatria-animado:hover {
+  color: #fff700;
+}
+
+.lapatria-animado:hover::after {
+  transform: scaleX(1);
 }
