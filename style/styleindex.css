@@ -395,9 +395,10 @@ a {
 }
 
 .video-creer {
-    aspect-ratio: 16/9;
     min-height: 180px;
     max-width: 450px;
+    position: relative;
+    left: 22%;
 }
 
 .recursos-de-fondo {
