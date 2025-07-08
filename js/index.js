@@ -1,7 +1,5 @@
 // --- ANIMACIÓN PARA BOTONES DEL HEADER ---
 document.addEventListener('DOMContentLoaded', () => {
-  // ...existing code...
-
   // Animación para los botones del header
   const headerBtns = document.querySelectorAll('.navbar .btn');
   headerBtns.forEach(btn => {
@@ -454,12 +452,40 @@ actualizarLista();
 cargarCancion(0);
 
 // --- ANIMACIONES PARA EL RESTO DE LA PÁGINA ---
-// Fade-in general para secciones principales
 document.addEventListener('DOMContentLoaded', () => {
-  const secciones = document.querySelectorAll('.container, .carrucel-img, .fondo-pie-de-paguina, .navbar, .una-mirada');
+  // Fade-in para todas las secciones principales y faltantes
+  const secciones = document.querySelectorAll(`
+    .container,
+    .carrucel-img,
+    .fondo-pie-de-paguina,
+    .navbar,
+    .una-mirada,
+    .row,
+    .col-12,
+    .col-md-6,
+    .col-lg-4,
+    .col-md-5,
+    .col-md-6,
+    .col-12.col-md-6,
+    .col-12.col-lg-8,
+    .col-md-6.d-flex,
+    .col-md-6.flex-column,
+    .col-md-6.mb-4,
+    .col-md-6.justify-content-between,
+    .col-md-6.align-items-center,
+    .col-md-6.d-flex.flex-column.justify-content-between,
+    .col-md-6.d-flex.flex-column,
+    .col-md-6.d-flex.flex-column.justify-content-between,
+    .col-md-6.d-flex.flex-column.align-items-center,
+    .col-md-6.d-flex.flex-column.justify-content-center,
+    .col-md-6.d-flex.flex-column.align-items-center.justify-content-center,
+    .col-md-6.d-flex.flex-column.justify-content-between.align-items-center,
+    .col-md-6.d-flex.flex-column.justify-content-between.align-items-center.order-2,
+    .col-md-6.d-flex.flex-column.justify-content-between.align-items-center.order-2.ms-3.h-100
+  `);
   secciones.forEach((sec, i) => {
     sec.classList.add('fade-in');
-    sec.style.animationDelay = `${i * 0.2}s`;
+    sec.style.animationDelay = `${i * 0.08}s`;
   });
 
   // Animación de resalte al pasar el mouse sobre tarjetas de noticias
@@ -481,5 +507,69 @@ document.addEventListener('DOMContentLoaded', () => {
   carruselImgs.forEach(img => {
     img.addEventListener('mouseenter', () => img.classList.add('animar-img-carrusel'));
     img.addEventListener('mouseleave', () => img.classList.remove('animar-img-carrusel'));
+  });
+
+  // Animación de resalte para tarjetas de viejitos felices y trabajador
+  const empresarios = document.querySelectorAll('.los-nuevos-empresarios1');
+  empresarios.forEach(card => {
+    card.addEventListener('mouseenter', () => card.classList.add('animar-tarjeta'));
+    card.addEventListener('mouseleave', () => card.classList.remove('animar-tarjeta'));
+  });
+
+  // Animación de rebote para imágenes del pie de página
+  const pieImgs = document.querySelectorAll('.pie-de-paguina img');
+  pieImgs.forEach(img => {
+    img.addEventListener('mouseenter', () => img.classList.add('animar-img-carrusel'));
+    img.addEventListener('mouseleave', () => img.classList.remove('animar-img-carrusel'));
+  });
+
+  // Animación para los botones del header
+  const headerBtns = document.querySelectorAll('.navbar .btn');
+  headerBtns.forEach(btn => {
+    btn.addEventListener('mouseenter', () => btn.classList.add('animar-header-btn'));
+    btn.addEventListener('mouseleave', () => btn.classList.remove('animar-header-btn'));
+  });
+
+  // Animación de resalte para la tarjeta de 'Foro lideres de la región'
+  const foroLideres = document.querySelectorAll('.lideres-de-la-region');
+  foroLideres.forEach(card => {
+    card.addEventListener('mouseenter', () => card.classList.add('animar-tarjeta'));
+    card.addEventListener('mouseleave', () => card.classList.remove('animar-tarjeta'));
+  });
+
+  // Animación de resalte para la tarjeta de 'Eventos'
+  const eventos = document.querySelectorAll('.eventos-info');
+  eventos.forEach(card => {
+    card.addEventListener('mouseenter', () => card.classList.add('animar-tarjeta'));
+    card.addEventListener('mouseleave', () => card.classList.remove('animar-tarjeta'));
+  });
+
+  // Animación de rebote para la imagen de 'Foro lideres de la región'
+  const foroImgs = document.querySelectorAll('.lideres-de-la-region, .que-tanto-conoces');
+  foroImgs.forEach(el => {
+    // Si es imagen, aplicar directo; si es contenedor, buscar imágenes dentro
+    if (el.tagName === 'IMG') {
+      el.addEventListener('mouseenter', () => el.classList.add('animar-img-carrusel'));
+      el.addEventListener('mouseleave', () => el.classList.remove('animar-img-carrusel'));
+    } else {
+      el.querySelectorAll('img').forEach(img => {
+        img.addEventListener('mouseenter', () => img.classList.add('animar-img-carrusel'));
+        img.addEventListener('mouseleave', () => img.classList.remove('animar-img-carrusel'));
+      });
+    }
+  });
+
+  // Animación de rebote para la imagen de 'Eventos'
+  const eventosImgs = document.querySelectorAll('.eventos-info, .familia-comedor, .img-samana img, .samana-img');
+  eventosImgs.forEach(el => {
+    if (el.tagName === 'IMG') {
+      el.addEventListener('mouseenter', () => el.classList.add('animar-img-carrusel'));
+      el.addEventListener('mouseleave', () => el.classList.remove('animar-img-carrusel'));
+    } else {
+      el.querySelectorAll('img').forEach(img => {
+        img.addEventListener('mouseenter', () => img.classList.add('animar-img-carrusel'));
+        img.addEventListener('mouseleave', () => img.classList.remove('animar-img-carrusel'));
+      });
+    }
   });
 });
