@@ -1,0 +1,26 @@
+/* Animaciones para mejorar lo visual */
+.animar-album {
+  animation: albumPop 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes albumPop {
+  0% { transform: scale(1); box-shadow: 0 0 0 rgba(0,0,0,0); }
+  50% { transform: scale(1.08); box-shadow: 0 8px 32px rgba(0,0,0,0.18); }
+  100% { transform: scale(1); box-shadow: 0 0 0 rgba(0,0,0,0); }
+}
+
+.animar-boton {
+  animation: botonPulse 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes botonPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.animar-progreso {
+  animation: barraFlash 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes barraFlash {
+  0% { background: #fff700; }
+  100% { background: #2196f3; }
+}

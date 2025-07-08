@@ -397,5 +397,47 @@ nivelVolumen.addEventListener('input', (e) => {
     audio.volume = e.target.value / 100;
 });
 
+// Animaciones visuales para mejorar la experiencia
+function animarAlbumArt() {
+    if (albumArt) {
+        albumArt.classList.remove('animar-album');
+        // Forzar reflow para reiniciar la animación
+        void albumArt.offsetWidth;
+        albumArt.classList.add('animar-album');
+    }
+}
+
+function animarBoton(boton) {
+    if (boton) {
+        boton.classList.remove('animar-boton');
+        void boton.offsetWidth;
+        boton.classList.add('animar-boton');
+    }
+}
+
+// Animar portada al cambiar de canción
+const originalCargarCancion = cargarCancion;
+cargarCancion = function(index) {
+    originalCargarCancion(index);
+    animarAlbumArt();
+};
+
+// Animar botones de control
+iniciar.addEventListener('click', () => animarBoton(iniciar));
+anterior.addEventListener('click', () => animarBoton(anterior));
+siguiente.addEventListener('click', () => animarBoton(siguiente));
+
+// Animar like
+if (likeBtn) {
+    likeBtn.addEventListener('click', () => animarBoton(likeBtn));
+}
+
+// Animar barra de progreso al hacer seek
+contenedorProgreso.addEventListener('click', () => {
+    progreso.classList.remove('animar-progreso');
+    void progreso.offsetWidth;
+    progreso.classList.add('animar-progreso');
+});
+
 actualizarLista();
 cargarCancion(0);
