@@ -412,3 +412,26 @@ a {
     width: 25%;
     min-width: 120px;
 }
+
+.link-youtube {
+    z-index: 2;
+    width: 100%;
+    max-width: 420px;
+
+}
+
+.que-tanto-conoces {
+    object-fit: cover;
+    min-height: 450px;
+    max-height: 100%;
+
+}
+
+.familia-comedor-1 {
+    height: 50%;
+}
+
+.familia-comedor {
+    object-fit: cover;
+    height: 200px;
+}
