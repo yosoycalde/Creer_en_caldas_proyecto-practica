@@ -1,3 +1,16 @@
+/* Animación para los botones del header */
+.animar-header-btn {
+  animation: headerBtnPulse 0.4s cubic-bezier(0.4,0,0.2,1);
+  box-shadow: 0 0 12px 2px #41a40355, 0 2px 8px #0002;
+  border-color: #41a403 !important;
+  background: linear-gradient(90deg, #41a403 30%, #2196f3 100%) !important;
+  color: #fff !important;
+}
+@keyframes headerBtnPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.10) rotate(-2deg); }
+  100% { transform: scale(1); }
+}
 /* Animaciones para mejorar lo visual */
 .animar-album {
   animation: albumPop 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -23,4 +36,45 @@
 @keyframes barraFlash {
   0% { background: #fff700; }
   100% { background: #2196f3; }
+}
+
+/* --- Animaciones generales para el resto de la página --- */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnim 1s forwards;
+}
+@keyframes fadeInAnim {
+  to { opacity: 1; }
+}
+
+.animar-tarjeta {
+  animation: tarjetaPop 0.5s cubic-bezier(0.4,0,0.2,1);
+  box-shadow: 0 8px 32px rgba(33,150,243,0.18);
+  border-color: #2196f3 !important;
+}
+@keyframes tarjetaPop {
+  0% { transform: scale(1); }
+  60% { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+.animar-ingresa {
+  animation: ingresaPulse 0.6s cubic-bezier(0.4,0,0.2,1);
+  box-shadow: 0 0 16px 4px #41a40355;
+  border-color: #41a403 !important;
+}
+@keyframes ingresaPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+.animar-img-carrusel {
+  animation: imgBounce 0.5s cubic-bezier(0.4,0,0.2,1);
+  filter: brightness(1.15) drop-shadow(0 0 8px #fff70088);
+}
+@keyframes imgBounce {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.12) rotate(-2deg); }
+  100% { transform: scale(1); }
 }

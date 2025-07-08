@@ -1,3 +1,14 @@
+// --- ANIMACIÓN PARA BOTONES DEL HEADER ---
+document.addEventListener('DOMContentLoaded', () => {
+  // ...existing code...
+
+  // Animación para los botones del header
+  const headerBtns = document.querySelectorAll('.navbar .btn');
+  headerBtns.forEach(btn => {
+    btn.addEventListener('mouseenter', () => btn.classList.add('animar-header-btn'));
+    btn.addEventListener('mouseleave', () => btn.classList.remove('animar-header-btn'));
+  });
+});
 // Código del carrusel viejo eliminado
 // --- INICIO NUEVO REPRODUCTOR (ACTUALIZADO) ---
 const audio = new Audio();
@@ -441,3 +452,34 @@ contenedorProgreso.addEventListener('click', () => {
 
 actualizarLista();
 cargarCancion(0);
+
+// --- ANIMACIONES PARA EL RESTO DE LA PÁGINA ---
+// Fade-in general para secciones principales
+document.addEventListener('DOMContentLoaded', () => {
+  const secciones = document.querySelectorAll('.container, .carrucel-img, .fondo-pie-de-paguina, .navbar, .una-mirada');
+  secciones.forEach((sec, i) => {
+    sec.classList.add('fade-in');
+    sec.style.animationDelay = `${i * 0.2}s`;
+  });
+
+  // Animación de resalte al pasar el mouse sobre tarjetas de noticias
+  const noticias = document.querySelectorAll('.noticia-contenedor1, .noticia-contenedor2, .noticia-contenedor3, .noticia-contenedor4');
+  noticias.forEach(noticia => {
+    noticia.addEventListener('mouseenter', () => noticia.classList.add('animar-tarjeta'));
+    noticia.addEventListener('mouseleave', () => noticia.classList.remove('animar-tarjeta'));
+  });
+
+  // Animación de resalte para "ingresa aquí"
+  const ingresaBtns = document.querySelectorAll('.ingresa-aqui-1');
+  ingresaBtns.forEach(btn => {
+    btn.addEventListener('mouseenter', () => btn.classList.add('animar-ingresa'));
+    btn.addEventListener('mouseleave', () => btn.classList.remove('animar-ingresa'));
+  });
+
+  // Animación de rebote para imágenes de empresas en el carrusel
+  const carruselImgs = document.querySelectorAll('.carousel-item img');
+  carruselImgs.forEach(img => {
+    img.addEventListener('mouseenter', () => img.classList.add('animar-img-carrusel'));
+    img.addEventListener('mouseleave', () => img.classList.remove('animar-img-carrusel'));
+  });
+});
