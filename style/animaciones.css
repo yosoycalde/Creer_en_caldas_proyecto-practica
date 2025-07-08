@@ -75,7 +75,6 @@
   }
 }
 
-/* --- Animaciones generales para el resto de la página --- */
 .fade-in {
   opacity: 0;
   animation: fadeInAnim 1s forwards;
@@ -110,7 +109,7 @@
 .animar-ingresa {
   animation: ingresaPulse 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 0 16px 4px #41a40355;
-  border-color: #41a403 !important;
+  border-color: #5208a7 !important;
 }
 
 @keyframes ingresaPulse {
@@ -129,7 +128,7 @@
 
 .animar-img-carrusel {
   animation: imgBounce 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  filter: brightness(1.15) drop-shadow(0 0 8px #fff70088);
+  filter: brightness(1.15) drop-shadow(0 0 8px #d400ff88);
 }
 
 @keyframes imgBounce {
@@ -160,14 +159,14 @@
   bottom: -2px;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, #00bfff, #fff700);
+  background: linear-gradient(90deg, #00bfff, #90099c);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
 }
 
 .lapatria-animado:hover {
-  color: #fff700;
+  color: #9d2db9;
 }
 
 .lapatria-animado:hover::after {
