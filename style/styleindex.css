@@ -457,13 +457,13 @@ a {
 
 .listaMusica {
     position: relative;
-    right: -15%;
+    right: 5%;
 }
 
 .top-tec-1 {
     position: relative;
-    width: 100%;
-    max-width: 1200px;
+    width: 105%;
+    max-width: 150%;
     margin: 0 auto;
     padding: 0 15px;
 }
