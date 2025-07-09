@@ -428,9 +428,14 @@ a {
 }
 
 .link-youtube {
+    position: absolute;
+    left: 32%;
+    top: 30%;
     z-index: 2;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
+    max-width: 32%;
+    min-width: 32%;
 }
 
 .video-creer {
