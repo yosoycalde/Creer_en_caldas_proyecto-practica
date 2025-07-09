@@ -109,7 +109,7 @@ a {
     border-radius: 5px;
     background-color: #41a403;
     display: block;
-    width: 950px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     box-sizing: border-box;
@@ -132,7 +132,7 @@ a {
     border-radius: 5px;
     background-color: #41a403;
     display: block;
-    width: 950px;
+    width: 100%;
     margin: 0;
     box-sizing: border-box;
     position: relative;
@@ -457,5 +457,19 @@ a {
 
 .listaMusica {
     position: relative;
-    right: -4%;
+    right: -15%;
+}
+
+.top-tec-1 {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        padding: 0 10px;
+    }
 }
