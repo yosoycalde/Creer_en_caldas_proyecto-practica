@@ -2,8 +2,8 @@
 .animar-header-btn {
   animation: headerBtnPulse 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 0 12px 2px #41a40355, 0 2px 8px #0002;
-  border-color: #41a403 !important;
-  background: linear-gradient(90deg, #41a403 30%, #2196f3 100%) !important;
+  border-color: #722cb4 !important;
+  background: linear-gradient(90deg, #281c97 30%, #b63cee 100%) !important;
   color: #fff !important;
 }
 
