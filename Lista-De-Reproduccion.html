@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="style/Style-Lista-De-Reproduccion.css">
+    <link rel="icon" href="recursos/icono/icon.png">
+</head>
+
+<body>
+    <div class="player-container">
+        <div class="music-info">
+            <h2 class="title">Reproductor de Música</h2>
+            <div class="album-art" id="album-art">
+                <div class="default-art">🎵</div>
+            </div>
+            <p id="song-info">Selecciona una canción</p>
+        </div>
+
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="time-info">
+            <span id="current-time">0:00</span>
+            <span id="duration">0:00</span>
+        </div>
+
+        <div class="controls">
+            <button id="prev">⏮</button>
+            <button id="play">▶</button>
+            <button id="next">⏭</button>
+        </div>
+
+        <div class="volume-container">
+            <span>🔊</span>
+            <input type="range" class="volume-slider" min="0" max="100" value="100" id="volume">
+        </div>
+
+        <div class="playlist" id="playlist"></div>
+    </div>
+    <script src="js/Lista-De-Reproduccion.js"></script>
+</body>
+
+</html>
